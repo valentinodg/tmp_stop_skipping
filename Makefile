@@ -1,14 +1,15 @@
 .POSIX:
 
-MAKEFLAGS+=s
-OS=$(shell uname -s)
-
 .DEFAULT_GOAL:-default
+
 default: | build
-build: | install launch
+build: | makenv install launch
+rebuild: | clean build
+
+makenv:
+	python -m venv .
 
 install:
-	python -m venv .
 	pip install -r requirements.txt
 	pip install -i https://pypi.gurobi.com gurobipy
 
@@ -25,4 +26,7 @@ remote:
 	echo 'c.NotebookApp.open_browser = False' >> ${HOME}/.jupyter/jupyter_notebook_config.py
 	jupyter notebook password
 
-.PHONY: install launch resolve remote
+clean:
+	-rm -rf bin include lib lib64 pyvenv.cfg
+
+.PHONY: makenv install launch resolve remote clean
