@@ -5,19 +5,19 @@ OS=$(shell uname -s)
 
 .DEFAULT_GOAL:-default
 default: | build
-build: | resolve start
+build: | install launch
 
-resolve:
+install:
 	python -m venv .
 	pip install -r requirements.txt
 	pip install -i https://pypi.gurobi.com gurobipy
 
-start:
+launch:
 	jupyter notebook
 
-deps:
+resolve:
 	pip freeze > requirements.txt
-	sed -i s/gurobipy//g requirements.txt
+	sed -i '/gurobipy.*/d' requirements.txt
 
 remote:
 	jupyter notebook --generate-config -y
@@ -25,4 +25,4 @@ remote:
 	echo 'c.NotebookApp.open_browser = False' >> ${HOME}/.jupyter/jupyter_notebook_config.py
 	jupyter notebook password
 
-.PHONY: resolve start deps remote
+.PHONY: install launch resolve remote
