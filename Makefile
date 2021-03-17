@@ -15,6 +15,7 @@ install:
 	pip install -i https://pypi.gurobi.com gurobipy
 
 launch:
+	jt -t monokai
 	jupyter notebook
 
 resolve:
@@ -43,7 +44,8 @@ help:
 	echo " - makenv    : create python virtual environment"
 	echo " - install   : install venv requirements from file"
 	echo " - launch    : launch jupyter notebook local/remote-available instance"
-	echo " - resolve   : config jupyter notebook remote-available instance"
+	echo " - resolve   : create requirements.txt file"
+	echo " - remote    : config jupyter notebook remote-available instance"
 	echo " - clean     : remove gitignored venv files"
 	echo " - help      : print this help message"
 
