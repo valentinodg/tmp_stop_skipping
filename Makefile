@@ -15,7 +15,6 @@ install:
 	pip install -i https://pypi.gurobi.com gurobipy
 
 launch:
-	jt -t monokai
 	jupyter notebook
 
 resolve:
