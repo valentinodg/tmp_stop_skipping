@@ -2,7 +2,8 @@
 
 .DEFAULT_GOAL:-default
 
-default: | build
+default: | flaunch
+flaunch: | launch
 build: | makenv install launch
 rebuild: | clean build
 
@@ -29,4 +30,21 @@ remote:
 clean:
 	-rm -rf bin include lib lib64 pyvenv.cfg
 
-.PHONY: makenv install launch resolve remote clean
+.SILENT: help
+help:
+	echo "MACROS: "
+	echo " * {DEFAULT} : flaunch"
+	echo
+	echo " * {flaunch} : launch"
+	echo " * {build}   : makenv;install;launch"
+	echo " * {rebuild} : clean;build"
+	echo
+	echo "PARAMS: "
+	echo " - makenv    : create python virtual environment"
+	echo " - install   : install venv requirements from file"
+	echo " - launch    : launch jupyter notebook local/remote-available instance"
+	echo " - resolve   : config jupyter notebook remote-available instance"
+	echo " - clean     : remove gitignored venv files"
+	echo " - help      : print this help message"
+
+.PHONY: makenv install launch resolve remote clean help
