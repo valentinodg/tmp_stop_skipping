@@ -9,9 +9,9 @@ rebuild: | clean build
 
 makenv:
 	python -m venv .
-	python -m pip install --upgrade pip
 
 install:
+	python -m pip install --upgrade pip
 	pip install -r requirements.txt
 	pip install -i https://pypi.gurobi.com gurobipy
 
