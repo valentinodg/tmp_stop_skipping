@@ -145,3 +145,5 @@ lib
 lib64
 share
 pyvenv.cfg
+
+.vim/coc-settings.json
