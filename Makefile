@@ -1,6 +1,6 @@
 .POSIX:
 
-.DEFAULT_GOAL:-default
+.DEFAULT_GOAL := default
 
 default: | flaunch
 flaunch: | launch
