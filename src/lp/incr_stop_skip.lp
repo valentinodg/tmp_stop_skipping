@@ -1,19 +1,6 @@
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Maximize
-  0 f + 0 alpha[0,1] + 0 alpha[0,2] + 0 alpha[0,3] + 0 alpha[0,4]
-   + 0 alpha[0,5] + 0 alpha[0,6] + 0 alpha[0,7] + 0 alpha[0,8]
-   + 0 alpha[0,9] + 0 alpha[1,2] + 0 alpha[1,3] + 0 alpha[1,4]
-   + 0 alpha[1,5] + 0 alpha[1,6] + 0 alpha[1,7] + 0 alpha[1,8]
-   + 0 alpha[1,9] + 0 alpha[2,3] + 0 alpha[2,4] + 0 alpha[2,5]
-   + 0 alpha[2,6] + 0 alpha[2,7] + 0 alpha[2,8] + 0 alpha[2,9]
-   + 0 alpha[3,4] + 0 alpha[3,5] + 0 alpha[3,6] + 0 alpha[3,7]
-   + 0 alpha[3,8] + 0 alpha[3,9] + 0 alpha[4,5] + 0 alpha[4,6]
-   + 0 alpha[4,7] + 0 alpha[4,8] + 0 alpha[4,9] + 0 alpha[5,6]
-   + 0 alpha[5,7] + 0 alpha[5,8] + 0 alpha[5,9] + 0 alpha[6,7]
-   + 0 alpha[6,8] + 0 alpha[6,9] + 0 alpha[7,8] + 0 alpha[7,9]
-   + 0 alpha[8,9] + 0 beta[0] + 0 beta[1] + 0 beta[2] + 0 beta[3]
-   + 0 beta[4] + 0 beta[5] + 0 beta[6] + 0 beta[7] + 0 beta[8] + 0 beta[9]
-   + 0 x[0,1] + 11000 x[0,2] + 21500 x[0,3] + 31500 x[0,4] + 41000 x[0,5]
+  0 f + 0 x[0,1] + 11000 x[0,2] + 21500 x[0,3] + 31500 x[0,4] + 41000 x[0,5]
    + 50000 x[0,6] + 58500 x[0,7] + 66500 x[0,8] + 74000 x[0,9] + 0 x[1,2]
    + 8750 x[1,3] + 17000 x[1,4] + 24750 x[1,5] + 32000 x[1,6]
    + 38750 x[1,7] + 45000 x[1,8] + 50750 x[1,9] + 0 x[2,3] + 6750 x[2,4]
@@ -133,6 +120,246 @@ Subject To
    + alpha_dummy_s_minus[4] + alpha_dummy_s_minus[5]
    + alpha_dummy_s_minus[6] + alpha_dummy_s_minus[7]
    + alpha_dummy_s_minus[8] + alpha_dummy_s_minus[9] = 1
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[0]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[0]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[1]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[1]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[2]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[2]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[3]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[3]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[4]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[4]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[5]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[5]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[6]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[6]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[7]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[7]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[8]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[8]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_beta_i_eq_sum_alpha_alpha_minus[9]: - alpha[0,1] - alpha[0,2]
+   - alpha[0,3] - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7]
+   - alpha[0,8] - alpha[0,9] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6] - alpha[2,7]
+   - alpha[2,8] - alpha[2,9] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[4,5] - alpha[4,6]
+   - alpha[4,7] - alpha[4,8] - alpha[4,9] - alpha[5,6] - alpha[5,7]
+   - alpha[5,8] - alpha[5,9] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[7,8] - alpha[7,9] - alpha[8,9] + beta[9]
+   - alpha_dummy_s_minus[0] - alpha_dummy_s_minus[1]
+   - alpha_dummy_s_minus[2] - alpha_dummy_s_minus[3]
+   - alpha_dummy_s_minus[4] - alpha_dummy_s_minus[5]
+   - alpha_dummy_s_minus[6] - alpha_dummy_s_minus[7]
+   - alpha_dummy_s_minus[8] - alpha_dummy_s_minus[9] = 0
+ CONSTR_gamma_leq_beta_sk[0,1]: - beta[0] + gamma[0,1] <= 0
+ CONSTR_gamma_leq_beta_sk[0,2]: - beta[0] + gamma[0,2] <= 0
+ CONSTR_gamma_leq_beta_sk[0,3]: - beta[0] + gamma[0,3] <= 0
+ CONSTR_gamma_leq_beta_sk[0,4]: - beta[0] + gamma[0,4] <= 0
+ CONSTR_gamma_leq_beta_sk[0,5]: - beta[0] + gamma[0,5] <= 0
+ CONSTR_gamma_leq_beta_sk[0,6]: - beta[0] + gamma[0,6] <= 0
+ CONSTR_gamma_leq_beta_sk[0,7]: - beta[0] + gamma[0,7] <= 0
+ CONSTR_gamma_leq_beta_sk[0,8]: - beta[0] + gamma[0,8] <= 0
+ CONSTR_gamma_leq_beta_sk[0,9]: - beta[0] + gamma[0,9] <= 0
+ CONSTR_gamma_leq_beta_sk[1,2]: - beta[1] + gamma[1,2] <= 0
+ CONSTR_gamma_leq_beta_sk[1,3]: - beta[1] + gamma[1,3] <= 0
+ CONSTR_gamma_leq_beta_sk[1,4]: - beta[1] + gamma[1,4] <= 0
+ CONSTR_gamma_leq_beta_sk[1,5]: - beta[1] + gamma[1,5] <= 0
+ CONSTR_gamma_leq_beta_sk[1,6]: - beta[1] + gamma[1,6] <= 0
+ CONSTR_gamma_leq_beta_sk[1,7]: - beta[1] + gamma[1,7] <= 0
+ CONSTR_gamma_leq_beta_sk[1,8]: - beta[1] + gamma[1,8] <= 0
+ CONSTR_gamma_leq_beta_sk[1,9]: - beta[1] + gamma[1,9] <= 0
+ CONSTR_gamma_leq_beta_sk[2,3]: - beta[2] + gamma[2,3] <= 0
+ CONSTR_gamma_leq_beta_sk[2,4]: - beta[2] + gamma[2,4] <= 0
+ CONSTR_gamma_leq_beta_sk[2,5]: - beta[2] + gamma[2,5] <= 0
+ CONSTR_gamma_leq_beta_sk[2,6]: - beta[2] + gamma[2,6] <= 0
+ CONSTR_gamma_leq_beta_sk[2,7]: - beta[2] + gamma[2,7] <= 0
+ CONSTR_gamma_leq_beta_sk[2,8]: - beta[2] + gamma[2,8] <= 0
+ CONSTR_gamma_leq_beta_sk[2,9]: - beta[2] + gamma[2,9] <= 0
+ CONSTR_gamma_leq_beta_sk[3,4]: - beta[3] + gamma[3,4] <= 0
+ CONSTR_gamma_leq_beta_sk[3,5]: - beta[3] + gamma[3,5] <= 0
+ CONSTR_gamma_leq_beta_sk[3,6]: - beta[3] + gamma[3,6] <= 0
+ CONSTR_gamma_leq_beta_sk[3,7]: - beta[3] + gamma[3,7] <= 0
+ CONSTR_gamma_leq_beta_sk[3,8]: - beta[3] + gamma[3,8] <= 0
+ CONSTR_gamma_leq_beta_sk[3,9]: - beta[3] + gamma[3,9] <= 0
+ CONSTR_gamma_leq_beta_sk[4,5]: - beta[4] + gamma[4,5] <= 0
+ CONSTR_gamma_leq_beta_sk[4,6]: - beta[4] + gamma[4,6] <= 0
+ CONSTR_gamma_leq_beta_sk[4,7]: - beta[4] + gamma[4,7] <= 0
+ CONSTR_gamma_leq_beta_sk[4,8]: - beta[4] + gamma[4,8] <= 0
+ CONSTR_gamma_leq_beta_sk[4,9]: - beta[4] + gamma[4,9] <= 0
+ CONSTR_gamma_leq_beta_sk[5,6]: - beta[5] + gamma[5,6] <= 0
+ CONSTR_gamma_leq_beta_sk[5,7]: - beta[5] + gamma[5,7] <= 0
+ CONSTR_gamma_leq_beta_sk[5,8]: - beta[5] + gamma[5,8] <= 0
+ CONSTR_gamma_leq_beta_sk[5,9]: - beta[5] + gamma[5,9] <= 0
+ CONSTR_gamma_leq_beta_sk[6,7]: - beta[6] + gamma[6,7] <= 0
+ CONSTR_gamma_leq_beta_sk[6,8]: - beta[6] + gamma[6,8] <= 0
+ CONSTR_gamma_leq_beta_sk[6,9]: - beta[6] + gamma[6,9] <= 0
+ CONSTR_gamma_leq_beta_sk[7,8]: - beta[7] + gamma[7,8] <= 0
+ CONSTR_gamma_leq_beta_sk[7,9]: - beta[7] + gamma[7,9] <= 0
+ CONSTR_gamma_leq_beta_sk[8,9]: - beta[8] + gamma[8,9] <= 0
+ CONSTR_gamma_leq_beta_dk[0,1]: - beta[1] + gamma[0,1] <= 0
+ CONSTR_gamma_leq_beta_dk[0,2]: - beta[2] + gamma[0,2] <= 0
+ CONSTR_gamma_leq_beta_dk[0,3]: - beta[3] + gamma[0,3] <= 0
+ CONSTR_gamma_leq_beta_dk[0,4]: - beta[4] + gamma[0,4] <= 0
+ CONSTR_gamma_leq_beta_dk[0,5]: - beta[5] + gamma[0,5] <= 0
+ CONSTR_gamma_leq_beta_dk[0,6]: - beta[6] + gamma[0,6] <= 0
+ CONSTR_gamma_leq_beta_dk[0,7]: - beta[7] + gamma[0,7] <= 0
+ CONSTR_gamma_leq_beta_dk[0,8]: - beta[8] + gamma[0,8] <= 0
+ CONSTR_gamma_leq_beta_dk[0,9]: - beta[9] + gamma[0,9] <= 0
+ CONSTR_gamma_leq_beta_dk[1,2]: - beta[2] + gamma[1,2] <= 0
+ CONSTR_gamma_leq_beta_dk[1,3]: - beta[3] + gamma[1,3] <= 0
+ CONSTR_gamma_leq_beta_dk[1,4]: - beta[4] + gamma[1,4] <= 0
+ CONSTR_gamma_leq_beta_dk[1,5]: - beta[5] + gamma[1,5] <= 0
+ CONSTR_gamma_leq_beta_dk[1,6]: - beta[6] + gamma[1,6] <= 0
+ CONSTR_gamma_leq_beta_dk[1,7]: - beta[7] + gamma[1,7] <= 0
+ CONSTR_gamma_leq_beta_dk[1,8]: - beta[8] + gamma[1,8] <= 0
+ CONSTR_gamma_leq_beta_dk[1,9]: - beta[9] + gamma[1,9] <= 0
+ CONSTR_gamma_leq_beta_dk[2,3]: - beta[3] + gamma[2,3] <= 0
+ CONSTR_gamma_leq_beta_dk[2,4]: - beta[4] + gamma[2,4] <= 0
+ CONSTR_gamma_leq_beta_dk[2,5]: - beta[5] + gamma[2,5] <= 0
+ CONSTR_gamma_leq_beta_dk[2,6]: - beta[6] + gamma[2,6] <= 0
+ CONSTR_gamma_leq_beta_dk[2,7]: - beta[7] + gamma[2,7] <= 0
+ CONSTR_gamma_leq_beta_dk[2,8]: - beta[8] + gamma[2,8] <= 0
+ CONSTR_gamma_leq_beta_dk[2,9]: - beta[9] + gamma[2,9] <= 0
+ CONSTR_gamma_leq_beta_dk[3,4]: - beta[4] + gamma[3,4] <= 0
+ CONSTR_gamma_leq_beta_dk[3,5]: - beta[5] + gamma[3,5] <= 0
+ CONSTR_gamma_leq_beta_dk[3,6]: - beta[6] + gamma[3,6] <= 0
+ CONSTR_gamma_leq_beta_dk[3,7]: - beta[7] + gamma[3,7] <= 0
+ CONSTR_gamma_leq_beta_dk[3,8]: - beta[8] + gamma[3,8] <= 0
+ CONSTR_gamma_leq_beta_dk[3,9]: - beta[9] + gamma[3,9] <= 0
+ CONSTR_gamma_leq_beta_dk[4,5]: - beta[5] + gamma[4,5] <= 0
+ CONSTR_gamma_leq_beta_dk[4,6]: - beta[6] + gamma[4,6] <= 0
+ CONSTR_gamma_leq_beta_dk[4,7]: - beta[7] + gamma[4,7] <= 0
+ CONSTR_gamma_leq_beta_dk[4,8]: - beta[8] + gamma[4,8] <= 0
+ CONSTR_gamma_leq_beta_dk[4,9]: - beta[9] + gamma[4,9] <= 0
+ CONSTR_gamma_leq_beta_dk[5,6]: - beta[6] + gamma[5,6] <= 0
+ CONSTR_gamma_leq_beta_dk[5,7]: - beta[7] + gamma[5,7] <= 0
+ CONSTR_gamma_leq_beta_dk[5,8]: - beta[8] + gamma[5,8] <= 0
+ CONSTR_gamma_leq_beta_dk[5,9]: - beta[9] + gamma[5,9] <= 0
+ CONSTR_gamma_leq_beta_dk[6,7]: - beta[7] + gamma[6,7] <= 0
+ CONSTR_gamma_leq_beta_dk[6,8]: - beta[8] + gamma[6,8] <= 0
+ CONSTR_gamma_leq_beta_dk[6,9]: - beta[9] + gamma[6,9] <= 0
+ CONSTR_gamma_leq_beta_dk[7,8]: - beta[8] + gamma[7,8] <= 0
+ CONSTR_gamma_leq_beta_dk[7,9]: - beta[9] + gamma[7,9] <= 0
+ CONSTR_gamma_leq_beta_dk[8,9]: - beta[9] + gamma[8,9] <= 0
 Bounds
  f <= 20
  x[0,1] <= 500
