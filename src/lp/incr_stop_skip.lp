@@ -53,17 +53,7 @@ Maximize
    - 0.8333333333333335 pk[5,8] - 0.8333333333333335 pk[5,9]
    - 0.8333333333333335 pk[6,7] - 0.8333333333333335 pk[6,8]
    - 0.8333333333333335 pk[6,9] - 0.8333333333333335 pk[7,8]
-   - 0.8333333333333335 pk[7,9] - 0.8333333333333335 pk[8,9]
-   + 0 alpha_dummy_s_plus[0] + 0 alpha_dummy_s_plus[1]
-   + 0 alpha_dummy_s_plus[2] + 0 alpha_dummy_s_plus[3]
-   + 0 alpha_dummy_s_plus[4] + 0 alpha_dummy_s_plus[5]
-   + 0 alpha_dummy_s_plus[6] + 0 alpha_dummy_s_plus[7]
-   + 0 alpha_dummy_s_plus[8] + 0 alpha_dummy_s_plus[9]
-   + 0 alpha_dummy_s_minus[0] + 0 alpha_dummy_s_minus[1]
-   + 0 alpha_dummy_s_minus[2] + 0 alpha_dummy_s_minus[3]
-   + 0 alpha_dummy_s_minus[4] + 0 alpha_dummy_s_minus[5]
-   + 0 alpha_dummy_s_minus[6] + 0 alpha_dummy_s_minus[7]
-   + 0 alpha_dummy_s_minus[8] + 0 alpha_dummy_s_minus[9] + [
+   - 0.8333333333333335 pk[7,9] - 0.8333333333333335 pk[8,9] + [
    1.666666666666667 gamma[0,1] * pk[0,1]
    + 1.666666666666667 gamma[0,2] * pk[0,2]
    + 1.666666666666667 gamma[0,3] * pk[0,3]
@@ -125,6 +115,24 @@ Maximize
    - 15 z[6,8] * pk[6,8] - 15 z[6,9] * pk[6,9] - 15 z[7,8] * pk[7,8]
    - 15 z[7,9] * pk[7,9] - 15 z[8,9] * pk[8,9] ] / 2 
 Subject To
+ CONSTR_alpha_dummy_s_plus: alpha_dummy_s_plus[0] + alpha_dummy_s_plus[1]
+   + alpha_dummy_s_plus[2] + alpha_dummy_s_plus[3] + alpha_dummy_s_plus[4]
+   + alpha_dummy_s_plus[5] + alpha_dummy_s_plus[6] + alpha_dummy_s_plus[7]
+   + alpha_dummy_s_plus[8] = 1
+ CONSTR_alpha_alpha_dummy_eq: alpha_dummy_s_plus[0] + alpha_dummy_s_plus[1]
+   + alpha_dummy_s_plus[2] + alpha_dummy_s_plus[3] + alpha_dummy_s_plus[4]
+   + alpha_dummy_s_plus[5] + alpha_dummy_s_plus[6] + alpha_dummy_s_plus[7]
+   + alpha_dummy_s_plus[8] + alpha_dummy_s_plus[9] - alpha_dummy_s_minus[0]
+   - alpha_dummy_s_minus[1] - alpha_dummy_s_minus[2]
+   - alpha_dummy_s_minus[3] - alpha_dummy_s_minus[4]
+   - alpha_dummy_s_minus[5] - alpha_dummy_s_minus[6]
+   - alpha_dummy_s_minus[7] - alpha_dummy_s_minus[8]
+   - alpha_dummy_s_minus[9] = 0
+ CONSTR_alpha_dummy_s_minus: alpha_dummy_s_minus[1]
+   + alpha_dummy_s_minus[2] + alpha_dummy_s_minus[3]
+   + alpha_dummy_s_minus[4] + alpha_dummy_s_minus[5]
+   + alpha_dummy_s_minus[6] + alpha_dummy_s_minus[7]
+   + alpha_dummy_s_minus[8] + alpha_dummy_s_minus[9] = 1
 Bounds
  f <= 20
  x[0,1] <= 500
