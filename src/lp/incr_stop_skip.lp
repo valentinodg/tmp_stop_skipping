@@ -1,107 +1,99 @@
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Maximize
-  7200 gamma[0,1] + 4815 gamma[0,2] + 8325 gamma[0,3] + 5827.5 gamma[0,4]
-   + 7582.5 gamma[0,5] + 6457.5 gamma[0,6] + 3870 gamma[0,7]
-   + 10192.5 gamma[0,8] + 9360 gamma[0,9] + 11092.5 gamma[1,2]
-   + 1012.5 gamma[1,3] + 270 gamma[1,4] + 3375 gamma[1,5]
-   + 2812.5 gamma[1,6] + 765 gamma[1,7] + 5962.5 gamma[1,8]
-   + 967.5 gamma[1,9] + 5602.5 gamma[2,3] + 517.5 gamma[2,4]
-   + 1462.5 gamma[2,5] + 7852.5 gamma[2,6] + 7470 gamma[2,7]
-   + 7155 gamma[2,8] + 5872.5 gamma[2,9] + 1980 gamma[3,4]
-   + 2700 gamma[3,5] + 5445 gamma[3,6] + 652.5 gamma[3,7]
-   + 8437.5 gamma[3,8] + 9112.5 gamma[3,9] + 7740 gamma[4,5]
-   + 9180 gamma[4,6] + 3532.5 gamma[4,7] + 2475 gamma[4,8]
-   + 7267.5 gamma[4,9] + 4387.5 gamma[5,6] + 3442.5 gamma[5,7]
-   + 9990 gamma[5,8] + 7155 gamma[5,9] + 3307.5 gamma[6,7]
-   + 7717.5 gamma[6,8] + 720 gamma[6,9] + 2002.5 gamma[7,8]
-   + 9922.5 gamma[7,9] + 8865 gamma[8,9] + 42996 x[0,2] + 75243 x[0,3]
-   + 96741 x[0,4] + 107490 x[0,5] + 107490 x[0,6] + 96741 x[0,7]
-   + 75243 x[0,8] + 42996 x[0,9] + 75243 x[1,3] + 128988 x[1,4]
-   + 161235 x[1,5] + 171984 x[1,6] + 161235 x[1,7] + 128988 x[1,8]
-   + 75243 x[1,9] + 96741 x[2,4] + 161235 x[2,5] + 193482 x[2,6]
-   + 193482 x[2,7] + 161235 x[2,8] + 96741 x[2,9] + 107490 x[3,5]
-   + 171984 x[3,6] + 193482 x[3,7] + 171984 x[3,8] + 107490 x[3,9]
-   + 107490 x[4,6] + 161235 x[4,7] + 161235 x[4,8] + 107490 x[4,9]
-   + 96741 x[5,7] + 128988 x[5,8] + 96741 x[5,9] + 75243 x[6,8]
-   + 75243 x[6,9] + 42996 x[7,9] - 88.88888888888886 z[0,1]
-   - 59.44444444444442 z[0,2] - 102.7777777777777 z[0,3]
-   - 71.94444444444441 z[0,4] - 93.61111111111107 z[0,5]
-   - 79.7222222222222 z[0,6] - 47.77777777777776 z[0,7]
-   - 125.8333333333333 z[0,8] - 115.5555555555555 z[0,9]
-   - 136.9444444444444 z[1,2] - 12.5 z[1,3] - 3.333333333333332 z[1,4]
-   - 41.66666666666665 z[1,5] - 34.72222222222221 z[1,6]
-   - 9.444444444444441 z[1,7] - 73.61111111111109 z[1,8]
-   - 11.94444444444444 z[1,9] - 69.16666666666664 z[2,3]
-   - 6.388888888888887 z[2,4] - 18.05555555555555 z[2,5]
-   - 96.94444444444441 z[2,6] - 92.22222222222219 z[2,7]
-   - 88.3333333333333 z[2,8] - 72.5 z[2,9] - 24.44444444444444 z[3,4]
-   - 33.33333333333332 z[3,5] - 67.2222222222222 z[3,6]
-   - 8.055555555555554 z[3,7] - 104.1666666666666 z[3,8] - 112.5 z[3,9]
-   - 95.55555555555551 z[4,5] - 113.3333333333333 z[4,6]
-   - 43.61111111111109 z[4,7] - 30.55555555555554 z[4,8]
-   - 89.72222222222219 z[4,9] - 54.16666666666665 z[5,6] - 42.5 z[5,7]
-   - 123.3333333333333 z[5,8] - 88.3333333333333 z[5,9]
-   - 40.83333333333332 z[6,7] - 95.27777777777774 z[6,8]
-   - 8.888888888888886 z[6,9] - 24.72222222222221 z[7,8] - 122.5 z[7,9]
-   - 109.4444444444444 z[8,9] - 241852.5 Constant
+  60.83333333333334 gamma[0,1] + 268.3333333333334 gamma[0,2]
+   + 414.1666666666667 gamma[0,3] + 289.1666666666667 gamma[0,4]
+   + 326.6666666666667 gamma[0,5] + 260 gamma[0,6]
+   + 373.3333333333334 gamma[0,7] + 20 gamma[0,8]
+   + 21.66666666666667 gamma[0,9] + 33.33333333333334 gamma[1,2]
+   + 303.3333333333334 gamma[1,3] + 354.1666666666667 gamma[1,4]
+   + 167.5 gamma[1,5] + 228.3333333333334 gamma[1,6]
+   + 291.6666666666667 gamma[1,7] + 290 gamma[1,8]
+   + 158.3333333333334 gamma[1,9] + 39.16666666666667 gamma[2,3]
+   + 50.83333333333334 gamma[2,4] + 369.1666666666667 gamma[2,5]
+   + 269.1666666666667 gamma[2,6] + 32.5 gamma[2,7] + 310 gamma[2,8]
+   + 99.16666666666669 gamma[2,9] + 15.83333333333334 gamma[3,4]
+   + 200 gamma[3,5] + 333.3333333333334 gamma[3,6] + 42.5 gamma[3,7]
+   + 260.8333333333334 gamma[3,8] + 315.8333333333334 gamma[3,9]
+   + 179.1666666666667 gamma[4,5] + 294.1666666666667 gamma[4,6]
+   + 382.5 gamma[4,7] + 139.1666666666667 gamma[4,8]
+   + 156.6666666666667 gamma[4,9] + 73.33333333333334 gamma[5,6]
+   + 410.8333333333334 gamma[5,7] + 295.8333333333334 gamma[5,8]
+   + 10 gamma[5,9] + 287.5 gamma[6,7] + 179.1666666666667 gamma[6,8]
+   + 153.3333333333334 gamma[6,9] + 52.5 gamma[7,8] + 357.5 gamma[7,9]
+   + 340 gamma[8,9] + 45652 x[0,2] + 79891 x[0,3] + 102717 x[0,4]
+   + 114130 x[0,5] + 114130 x[0,6] + 102717 x[0,7] + 79891 x[0,8]
+   + 45652 x[0,9] + 79891 x[1,3] + 136956 x[1,4] + 171195 x[1,5]
+   + 182608 x[1,6] + 171195 x[1,7] + 136956 x[1,8] + 79891 x[1,9]
+   + 102717 x[2,4] + 171195 x[2,5] + 205434 x[2,6] + 205434 x[2,7]
+   + 171195 x[2,8] + 102717 x[2,9] + 114130 x[3,5] + 182608 x[3,6]
+   + 205434 x[3,7] + 182608 x[3,8] + 114130 x[3,9] + 114130 x[4,6]
+   + 171195 x[4,7] + 171195 x[4,8] + 114130 x[4,9] + 102717 x[5,7]
+   + 136956 x[5,8] + 102717 x[5,9] + 79891 x[6,8] + 79891 x[6,9]
+   + 45652 x[7,9] - 547.5 z[0,1] - 2415 z[0,2] - 3727.5 z[0,3]
+   - 2602.5 z[0,4] - 2940 z[0,5] - 2340 z[0,6] - 3360 z[0,7] - 180 z[0,8]
+   - 195 z[0,9] - 300 z[1,2] - 2730 z[1,3] - 3187.5 z[1,4] - 1507.5 z[1,5]
+   - 2055 z[1,6] - 2625 z[1,7] - 2610 z[1,8] - 1425 z[1,9] - 352.5 z[2,3]
+   - 457.5 z[2,4] - 3322.5 z[2,5] - 2422.5 z[2,6] - 292.5 z[2,7]
+   - 2790 z[2,8] - 892.5 z[2,9] - 142.5 z[3,4] - 1800 z[3,5] - 3000 z[3,6]
+   - 382.5 z[3,7] - 2347.5 z[3,8] - 2842.5 z[3,9] - 1612.5 z[4,5]
+   - 2647.5 z[4,6] - 3442.5 z[4,7] - 1252.5 z[4,8] - 1410 z[4,9]
+   - 660 z[5,6] - 3697.5 z[5,7] - 2662.5 z[5,8] - 90 z[5,9] - 2587.5 z[6,7]
+   - 1612.5 z[6,8] - 1380 z[6,9] - 472.5 z[7,8] - 3217.5 z[7,9]
+   - 3060 z[8,9] - 9510.833333333334 Constant
 Subject To
- CONSTRAINT_2: alpha_dummy_s+[0] + alpha_dummy_s+[1] + alpha_dummy_s+[2]
-   + alpha_dummy_s+[3] + alpha_dummy_s+[4] + alpha_dummy_s+[5]
-   + alpha_dummy_s+[6] + alpha_dummy_s+[7] + alpha_dummy_s+[8] = 1
+ CONSTRAINT_2: alpha[s,0] + alpha[s,1] + alpha[s,2] + alpha[s,3]
+   + alpha[s,4] + alpha[s,5] + alpha[s,6] + alpha[s,7] + alpha[s,8] = 1
  CONSTRAINT_3[0]: - alpha[0,1] - alpha[0,2] - alpha[0,3] - alpha[0,4]
    - alpha[0,5] - alpha[0,6] - alpha[0,7] - alpha[0,8] - alpha[0,9]
-   + alpha_dummy_s+[0] - alpha_dummy_s-[0] = 0
+   + alpha[s,0] - alpha[0,s] = 0
  CONSTRAINT_3[1]: alpha[0,1] - alpha[1,2] - alpha[1,3] - alpha[1,4]
    - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
-   + alpha_dummy_s+[1] - alpha_dummy_s-[1] = 0
+   + alpha[s,1] - alpha[1,s] = 0
  CONSTRAINT_3[2]: alpha[0,2] + alpha[1,2] - alpha[2,3] - alpha[2,4]
    - alpha[2,5] - alpha[2,6] - alpha[2,7] - alpha[2,8] - alpha[2,9]
-   + alpha_dummy_s+[2] - alpha_dummy_s-[2] = 0
+   + alpha[s,2] - alpha[2,s] = 0
  CONSTRAINT_3[3]: alpha[0,3] + alpha[1,3] + alpha[2,3] - alpha[3,4]
    - alpha[3,5] - alpha[3,6] - alpha[3,7] - alpha[3,8] - alpha[3,9]
-   + alpha_dummy_s+[3] - alpha_dummy_s-[3] = 0
+   + alpha[s,3] - alpha[3,s] = 0
  CONSTRAINT_3[4]: alpha[0,4] + alpha[1,4] + alpha[2,4] + alpha[3,4]
    - alpha[4,5] - alpha[4,6] - alpha[4,7] - alpha[4,8] - alpha[4,9]
-   + alpha_dummy_s+[4] - alpha_dummy_s-[4] = 0
+   + alpha[s,4] - alpha[4,s] = 0
  CONSTRAINT_3[5]: alpha[0,5] + alpha[1,5] + alpha[2,5] + alpha[3,5]
    + alpha[4,5] - alpha[5,6] - alpha[5,7] - alpha[5,8] - alpha[5,9]
-   + alpha_dummy_s+[5] - alpha_dummy_s-[5] = 0
+   + alpha[s,5] - alpha[5,s] = 0
  CONSTRAINT_3[6]: alpha[0,6] + alpha[1,6] + alpha[2,6] + alpha[3,6]
    + alpha[4,6] + alpha[5,6] - alpha[6,7] - alpha[6,8] - alpha[6,9]
-   + alpha_dummy_s+[6] - alpha_dummy_s-[6] = 0
+   + alpha[s,6] - alpha[6,s] = 0
  CONSTRAINT_3[7]: alpha[0,7] + alpha[1,7] + alpha[2,7] + alpha[3,7]
    + alpha[4,7] + alpha[5,7] + alpha[6,7] - alpha[7,8] - alpha[7,9]
-   + alpha_dummy_s+[7] - alpha_dummy_s-[7] = 0
+   + alpha[s,7] - alpha[7,s] = 0
  CONSTRAINT_3[8]: alpha[0,8] + alpha[1,8] + alpha[2,8] + alpha[3,8]
    + alpha[4,8] + alpha[5,8] + alpha[6,8] + alpha[7,8] - alpha[8,9]
-   + alpha_dummy_s+[8] - alpha_dummy_s-[8] = 0
+   + alpha[s,8] - alpha[8,s] = 0
  CONSTRAINT_3[9]: alpha[0,9] + alpha[1,9] + alpha[2,9] + alpha[3,9]
    + alpha[4,9] + alpha[5,9] + alpha[6,9] + alpha[7,9] + alpha[8,9]
-   + alpha_dummy_s+[9] - alpha_dummy_s-[9] = 0
- CONSTRAINT_4: alpha_dummy_s-[1] + alpha_dummy_s-[2] + alpha_dummy_s-[3]
-   + alpha_dummy_s-[4] + alpha_dummy_s-[5] + alpha_dummy_s-[6]
-   + alpha_dummy_s-[7] + alpha_dummy_s-[8] + alpha_dummy_s-[9] = 1
- CONSTRAINT_6[0]: - alpha[0,1] - alpha[0,2] - alpha[0,3] - alpha[0,4]
-   - alpha[0,5] - alpha[0,6] - alpha[0,7] - alpha[0,8] - alpha[0,9]
-   + beta[0] - alpha_dummy_s-[0] = 0
- CONSTRAINT_6[1]: - alpha[1,2] - alpha[1,3] - alpha[1,4] - alpha[1,5]
-   - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9] + beta[1]
-   - alpha_dummy_s-[1] = 0
- CONSTRAINT_6[2]: - alpha[2,3] - alpha[2,4] - alpha[2,5] - alpha[2,6]
-   - alpha[2,7] - alpha[2,8] - alpha[2,9] + beta[2] - alpha_dummy_s-[2]
-   = 0
- CONSTRAINT_6[3]: - alpha[3,4] - alpha[3,5] - alpha[3,6] - alpha[3,7]
-   - alpha[3,8] - alpha[3,9] + beta[3] - alpha_dummy_s-[3] = 0
- CONSTRAINT_6[4]: - alpha[4,5] - alpha[4,6] - alpha[4,7] - alpha[4,8]
-   - alpha[4,9] + beta[4] - alpha_dummy_s-[4] = 0
- CONSTRAINT_6[5]: - alpha[5,6] - alpha[5,7] - alpha[5,8] - alpha[5,9]
-   + beta[5] - alpha_dummy_s-[5] = 0
- CONSTRAINT_6[6]: - alpha[6,7] - alpha[6,8] - alpha[6,9] + beta[6]
-   - alpha_dummy_s-[6] = 0
- CONSTRAINT_6[7]: - alpha[7,8] - alpha[7,9] + beta[7] - alpha_dummy_s-[7]
-   = 0
- CONSTRAINT_6[8]: - alpha[8,9] + beta[8] - alpha_dummy_s-[8] = 0
- CONSTRAINT_6[9]: beta[9] - alpha_dummy_s-[9] = 0
+   + alpha[s,9] - alpha[9,s] = 0
+ CONSTRAINT_4: alpha[1,s] + alpha[2,s] + alpha[3,s] + alpha[4,s]
+   + alpha[5,s] + alpha[6,s] + alpha[7,s] + alpha[8,s] + alpha[9,s] = 1
+ CONSTRAINT_6[0]: beta[0] - alpha[0,1] - alpha[0,2] - alpha[0,3]
+   - alpha[0,4] - alpha[0,5] - alpha[0,6] - alpha[0,7] - alpha[0,8]
+   - alpha[0,9] - alpha[0,s] = 0
+ CONSTRAINT_6[1]: beta[1] - alpha[1,2] - alpha[1,3] - alpha[1,4]
+   - alpha[1,5] - alpha[1,6] - alpha[1,7] - alpha[1,8] - alpha[1,9]
+   - alpha[1,s] = 0
+ CONSTRAINT_6[2]: beta[2] - alpha[2,3] - alpha[2,4] - alpha[2,5]
+   - alpha[2,6] - alpha[2,7] - alpha[2,8] - alpha[2,9] - alpha[2,s] = 0
+ CONSTRAINT_6[3]: beta[3] - alpha[3,4] - alpha[3,5] - alpha[3,6]
+   - alpha[3,7] - alpha[3,8] - alpha[3,9] - alpha[3,s] = 0
+ CONSTRAINT_6[4]: beta[4] - alpha[4,5] - alpha[4,6] - alpha[4,7]
+   - alpha[4,8] - alpha[4,9] - alpha[4,s] = 0
+ CONSTRAINT_6[5]: beta[5] - alpha[5,6] - alpha[5,7] - alpha[5,8]
+   - alpha[5,9] - alpha[5,s] = 0
+ CONSTRAINT_6[6]: beta[6] - alpha[6,7] - alpha[6,8] - alpha[6,9]
+   - alpha[6,s] = 0
+ CONSTRAINT_6[7]: beta[7] - alpha[7,8] - alpha[7,9] - alpha[7,s] = 0
+ CONSTRAINT_6[8]: beta[8] - alpha[8,9] - alpha[8,s] = 0
+ CONSTRAINT_6[9]: beta[9] - alpha[9,s] = 0
  CONSTRAINT_7[0,1]: - beta[0] + gamma[0,1] <= 0
  CONSTRAINT_7[0,2]: - beta[0] + gamma[0,2] <= 0
  CONSTRAINT_7[0,3]: - beta[0] + gamma[0,3] <= 0
@@ -192,501 +184,51 @@ Subject To
  CONSTRAINT_8[7,8]: - beta[8] + gamma[7,8] <= 0
  CONSTRAINT_8[7,9]: - beta[9] + gamma[7,9] <= 0
  CONSTRAINT_8[8,9]: - beta[9] + gamma[8,9] <= 0
- CONSTRAINT_11[0,1][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,2][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,2][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,2][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,3][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,3][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,3][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,3][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,3][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,3][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,4][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,4][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,4][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,4][0,4]: - alpha[0,4] + x[0,4] <= 0
- CONSTRAINT_11[0,4][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,4][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,4][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[0,4][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,4][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[0,4][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[0,5][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,5][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,5][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,5][0,4]: - alpha[0,4] + x[0,4] <= 0
- CONSTRAINT_11[0,5][0,5]: - alpha[0,5] + x[0,5] <= 0
- CONSTRAINT_11[0,5][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,5][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,5][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[0,5][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[0,5][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,5][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[0,5][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[0,5][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[0,5][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[0,5][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[0,6][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,6][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,6][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,6][0,4]: - alpha[0,4] + x[0,4] <= 0
- CONSTRAINT_11[0,6][0,5]: - alpha[0,5] + x[0,5] <= 0
- CONSTRAINT_11[0,6][0,6]: - alpha[0,6] + x[0,6] <= 0
- CONSTRAINT_11[0,6][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,6][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,6][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[0,6][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[0,6][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[0,6][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,6][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[0,6][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[0,6][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[0,6][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[0,6][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[0,6][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[0,6][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[0,6][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[0,6][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[0,7][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,7][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,7][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,7][0,4]: - alpha[0,4] + x[0,4] <= 0
- CONSTRAINT_11[0,7][0,5]: - alpha[0,5] + x[0,5] <= 0
- CONSTRAINT_11[0,7][0,6]: - alpha[0,6] + x[0,6] <= 0
- CONSTRAINT_11[0,7][0,7]: - alpha[0,7] + x[0,7] <= 0
- CONSTRAINT_11[0,7][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,7][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,7][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[0,7][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[0,7][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[0,7][1,7]: - alpha[1,7] + x[1,7] <= 0
- CONSTRAINT_11[0,7][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,7][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[0,7][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[0,7][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[0,7][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[0,7][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[0,7][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[0,7][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[0,7][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[0,7][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[0,7][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[0,7][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[0,7][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[0,7][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[0,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[0,8][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,8][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,8][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,8][0,4]: - alpha[0,4] + x[0,4] <= 0
- CONSTRAINT_11[0,8][0,5]: - alpha[0,5] + x[0,5] <= 0
- CONSTRAINT_11[0,8][0,6]: - alpha[0,6] + x[0,6] <= 0
- CONSTRAINT_11[0,8][0,7]: - alpha[0,7] + x[0,7] <= 0
- CONSTRAINT_11[0,8][0,8]: - alpha[0,8] + x[0,8] <= 0
- CONSTRAINT_11[0,8][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,8][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,8][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[0,8][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[0,8][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[0,8][1,7]: - alpha[1,7] + x[1,7] <= 0
- CONSTRAINT_11[0,8][1,8]: - alpha[1,8] + x[1,8] <= 0
- CONSTRAINT_11[0,8][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,8][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[0,8][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[0,8][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[0,8][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[0,8][2,8]: - alpha[2,8] + x[2,8] <= 0
- CONSTRAINT_11[0,8][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[0,8][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[0,8][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[0,8][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[0,8][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[0,8][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[0,8][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[0,8][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[0,8][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[0,8][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[0,8][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[0,8][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[0,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[0,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[0,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[0,9][0,1]: - alpha[0,1] + x[0,1] <= 0
- CONSTRAINT_11[0,9][0,2]: - alpha[0,2] + x[0,2] <= 0
- CONSTRAINT_11[0,9][0,3]: - alpha[0,3] + x[0,3] <= 0
- CONSTRAINT_11[0,9][0,4]: - alpha[0,4] + x[0,4] <= 0
- CONSTRAINT_11[0,9][0,5]: - alpha[0,5] + x[0,5] <= 0
- CONSTRAINT_11[0,9][0,6]: - alpha[0,6] + x[0,6] <= 0
- CONSTRAINT_11[0,9][0,7]: - alpha[0,7] + x[0,7] <= 0
- CONSTRAINT_11[0,9][0,8]: - alpha[0,8] + x[0,8] <= 0
- CONSTRAINT_11[0,9][0,9]: - alpha[0,9] + x[0,9] <= 0
- CONSTRAINT_11[0,9][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[0,9][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[0,9][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[0,9][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[0,9][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[0,9][1,7]: - alpha[1,7] + x[1,7] <= 0
- CONSTRAINT_11[0,9][1,8]: - alpha[1,8] + x[1,8] <= 0
- CONSTRAINT_11[0,9][1,9]: - alpha[1,9] + x[1,9] <= 0
- CONSTRAINT_11[0,9][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[0,9][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[0,9][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[0,9][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[0,9][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[0,9][2,8]: - alpha[2,8] + x[2,8] <= 0
- CONSTRAINT_11[0,9][2,9]: - alpha[2,9] + x[2,9] <= 0
- CONSTRAINT_11[0,9][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[0,9][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[0,9][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[0,9][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[0,9][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[0,9][3,9]: - alpha[3,9] + x[3,9] <= 0
- CONSTRAINT_11[0,9][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[0,9][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[0,9][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[0,9][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[0,9][4,9]: - alpha[4,9] + x[4,9] <= 0
- CONSTRAINT_11[0,9][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[0,9][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[0,9][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[0,9][5,9]: - alpha[5,9] + x[5,9] <= 0
- CONSTRAINT_11[0,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[0,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[0,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[0,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[0,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[0,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[1,2][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,3][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,3][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,3][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,4][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,4][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,4][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[1,4][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,4][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[1,4][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[1,5][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,5][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,5][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[1,5][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[1,5][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,5][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[1,5][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[1,5][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[1,5][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[1,5][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[1,6][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,6][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,6][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[1,6][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[1,6][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[1,6][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,6][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[1,6][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[1,6][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[1,6][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[1,6][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[1,6][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[1,6][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[1,6][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[1,6][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[1,7][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,7][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,7][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[1,7][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[1,7][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[1,7][1,7]: - alpha[1,7] + x[1,7] <= 0
- CONSTRAINT_11[1,7][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,7][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[1,7][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[1,7][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[1,7][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[1,7][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[1,7][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[1,7][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[1,7][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[1,7][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[1,7][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[1,7][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[1,7][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[1,7][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[1,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[1,8][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,8][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,8][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[1,8][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[1,8][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[1,8][1,7]: - alpha[1,7] + x[1,7] <= 0
- CONSTRAINT_11[1,8][1,8]: - alpha[1,8] + x[1,8] <= 0
- CONSTRAINT_11[1,8][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,8][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[1,8][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[1,8][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[1,8][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[1,8][2,8]: - alpha[2,8] + x[2,8] <= 0
- CONSTRAINT_11[1,8][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[1,8][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[1,8][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[1,8][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[1,8][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[1,8][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[1,8][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[1,8][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[1,8][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[1,8][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[1,8][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[1,8][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[1,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[1,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[1,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[1,9][1,2]: - alpha[1,2] + x[1,2] <= 0
- CONSTRAINT_11[1,9][1,3]: - alpha[1,3] + x[1,3] <= 0
- CONSTRAINT_11[1,9][1,4]: - alpha[1,4] + x[1,4] <= 0
- CONSTRAINT_11[1,9][1,5]: - alpha[1,5] + x[1,5] <= 0
- CONSTRAINT_11[1,9][1,6]: - alpha[1,6] + x[1,6] <= 0
- CONSTRAINT_11[1,9][1,7]: - alpha[1,7] + x[1,7] <= 0
- CONSTRAINT_11[1,9][1,8]: - alpha[1,8] + x[1,8] <= 0
- CONSTRAINT_11[1,9][1,9]: - alpha[1,9] + x[1,9] <= 0
- CONSTRAINT_11[1,9][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[1,9][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[1,9][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[1,9][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[1,9][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[1,9][2,8]: - alpha[2,8] + x[2,8] <= 0
- CONSTRAINT_11[1,9][2,9]: - alpha[2,9] + x[2,9] <= 0
- CONSTRAINT_11[1,9][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[1,9][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[1,9][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[1,9][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[1,9][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[1,9][3,9]: - alpha[3,9] + x[3,9] <= 0
- CONSTRAINT_11[1,9][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[1,9][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[1,9][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[1,9][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[1,9][4,9]: - alpha[4,9] + x[4,9] <= 0
- CONSTRAINT_11[1,9][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[1,9][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[1,9][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[1,9][5,9]: - alpha[5,9] + x[5,9] <= 0
- CONSTRAINT_11[1,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[1,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[1,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[1,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[1,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[1,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[2,3][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,4][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,4][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[2,4][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[2,5][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,5][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[2,5][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[2,5][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[2,5][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[2,5][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[2,6][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,6][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[2,6][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[2,6][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[2,6][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[2,6][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[2,6][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[2,6][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[2,6][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[2,6][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[2,7][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,7][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[2,7][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[2,7][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[2,7][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[2,7][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[2,7][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[2,7][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[2,7][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[2,7][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[2,7][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[2,7][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[2,7][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[2,7][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[2,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[2,8][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,8][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[2,8][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[2,8][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[2,8][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[2,8][2,8]: - alpha[2,8] + x[2,8] <= 0
- CONSTRAINT_11[2,8][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[2,8][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[2,8][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[2,8][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[2,8][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[2,8][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[2,8][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[2,8][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[2,8][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[2,8][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[2,8][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[2,8][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[2,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[2,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[2,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[2,9][2,3]: - alpha[2,3] + x[2,3] <= 0
- CONSTRAINT_11[2,9][2,4]: - alpha[2,4] + x[2,4] <= 0
- CONSTRAINT_11[2,9][2,5]: - alpha[2,5] + x[2,5] <= 0
- CONSTRAINT_11[2,9][2,6]: - alpha[2,6] + x[2,6] <= 0
- CONSTRAINT_11[2,9][2,7]: - alpha[2,7] + x[2,7] <= 0
- CONSTRAINT_11[2,9][2,8]: - alpha[2,8] + x[2,8] <= 0
- CONSTRAINT_11[2,9][2,9]: - alpha[2,9] + x[2,9] <= 0
- CONSTRAINT_11[2,9][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[2,9][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[2,9][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[2,9][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[2,9][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[2,9][3,9]: - alpha[3,9] + x[3,9] <= 0
- CONSTRAINT_11[2,9][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[2,9][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[2,9][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[2,9][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[2,9][4,9]: - alpha[4,9] + x[4,9] <= 0
- CONSTRAINT_11[2,9][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[2,9][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[2,9][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[2,9][5,9]: - alpha[5,9] + x[5,9] <= 0
- CONSTRAINT_11[2,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[2,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[2,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[2,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[2,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[2,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[3,4][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[3,5][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[3,5][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[3,5][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[3,6][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[3,6][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[3,6][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[3,6][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[3,6][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[3,6][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[3,7][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[3,7][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[3,7][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[3,7][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[3,7][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[3,7][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[3,7][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[3,7][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[3,7][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[3,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[3,8][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[3,8][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[3,8][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[3,8][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[3,8][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[3,8][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[3,8][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[3,8][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[3,8][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[3,8][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[3,8][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[3,8][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[3,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[3,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[3,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[3,9][3,4]: - alpha[3,4] + x[3,4] <= 0
- CONSTRAINT_11[3,9][3,5]: - alpha[3,5] + x[3,5] <= 0
- CONSTRAINT_11[3,9][3,6]: - alpha[3,6] + x[3,6] <= 0
- CONSTRAINT_11[3,9][3,7]: - alpha[3,7] + x[3,7] <= 0
- CONSTRAINT_11[3,9][3,8]: - alpha[3,8] + x[3,8] <= 0
- CONSTRAINT_11[3,9][3,9]: - alpha[3,9] + x[3,9] <= 0
- CONSTRAINT_11[3,9][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[3,9][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[3,9][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[3,9][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[3,9][4,9]: - alpha[4,9] + x[4,9] <= 0
- CONSTRAINT_11[3,9][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[3,9][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[3,9][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[3,9][5,9]: - alpha[5,9] + x[5,9] <= 0
- CONSTRAINT_11[3,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[3,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[3,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[3,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[3,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[3,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[4,5][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[4,6][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[4,6][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[4,6][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[4,7][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[4,7][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[4,7][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[4,7][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[4,7][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[4,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[4,8][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[4,8][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[4,8][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[4,8][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[4,8][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[4,8][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[4,8][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[4,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[4,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[4,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[4,9][4,5]: - alpha[4,5] + x[4,5] <= 0
- CONSTRAINT_11[4,9][4,6]: - alpha[4,6] + x[4,6] <= 0
- CONSTRAINT_11[4,9][4,7]: - alpha[4,7] + x[4,7] <= 0
- CONSTRAINT_11[4,9][4,8]: - alpha[4,8] + x[4,8] <= 0
- CONSTRAINT_11[4,9][4,9]: - alpha[4,9] + x[4,9] <= 0
- CONSTRAINT_11[4,9][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[4,9][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[4,9][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[4,9][5,9]: - alpha[5,9] + x[5,9] <= 0
- CONSTRAINT_11[4,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[4,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[4,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[4,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[4,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[4,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[5,6][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[5,7][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[5,7][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[5,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[5,8][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[5,8][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[5,8][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[5,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[5,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[5,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[5,9][5,6]: - alpha[5,6] + x[5,6] <= 0
- CONSTRAINT_11[5,9][5,7]: - alpha[5,7] + x[5,7] <= 0
- CONSTRAINT_11[5,9][5,8]: - alpha[5,8] + x[5,8] <= 0
- CONSTRAINT_11[5,9][5,9]: - alpha[5,9] + x[5,9] <= 0
- CONSTRAINT_11[5,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[5,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[5,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[5,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[5,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[5,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[6,7][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[6,8][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[6,8][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[6,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[6,9][6,7]: - alpha[6,7] + x[6,7] <= 0
- CONSTRAINT_11[6,9][6,8]: - alpha[6,8] + x[6,8] <= 0
- CONSTRAINT_11[6,9][6,9]: - alpha[6,9] + x[6,9] <= 0
- CONSTRAINT_11[6,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[6,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[6,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[7,8][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[7,9][7,8]: - alpha[7,8] + x[7,8] <= 0
- CONSTRAINT_11[7,9][7,9]: - alpha[7,9] + x[7,9] <= 0
- CONSTRAINT_11[7,9][8,9]: - alpha[8,9] + x[8,9] <= 0
- CONSTRAINT_11[8,9][8,9]: - alpha[8,9] + x[8,9] <= 0
+ CONTRAINT_11[0,1]: x[0,1] - alpha[0,1] <= 0
+ CONTRAINT_11[0,2]: x[0,2] - alpha[0,2] <= 0
+ CONTRAINT_11[0,3]: x[0,3] - alpha[0,3] <= 0
+ CONTRAINT_11[0,4]: x[0,4] - alpha[0,4] <= 0
+ CONTRAINT_11[0,5]: x[0,5] - alpha[0,5] <= 0
+ CONTRAINT_11[0,6]: x[0,6] - alpha[0,6] <= 0
+ CONTRAINT_11[0,7]: x[0,7] - alpha[0,7] <= 0
+ CONTRAINT_11[0,8]: x[0,8] - alpha[0,8] <= 0
+ CONTRAINT_11[0,9]: x[0,9] - alpha[0,9] <= 0
+ CONTRAINT_11[1,2]: x[1,2] - alpha[1,2] <= 0
+ CONTRAINT_11[1,3]: x[1,3] - alpha[1,3] <= 0
+ CONTRAINT_11[1,4]: x[1,4] - alpha[1,4] <= 0
+ CONTRAINT_11[1,5]: x[1,5] - alpha[1,5] <= 0
+ CONTRAINT_11[1,6]: x[1,6] - alpha[1,6] <= 0
+ CONTRAINT_11[1,7]: x[1,7] - alpha[1,7] <= 0
+ CONTRAINT_11[1,8]: x[1,8] - alpha[1,8] <= 0
+ CONTRAINT_11[1,9]: x[1,9] - alpha[1,9] <= 0
+ CONTRAINT_11[2,3]: x[2,3] - alpha[2,3] <= 0
+ CONTRAINT_11[2,4]: x[2,4] - alpha[2,4] <= 0
+ CONTRAINT_11[2,5]: x[2,5] - alpha[2,5] <= 0
+ CONTRAINT_11[2,6]: x[2,6] - alpha[2,6] <= 0
+ CONTRAINT_11[2,7]: x[2,7] - alpha[2,7] <= 0
+ CONTRAINT_11[2,8]: x[2,8] - alpha[2,8] <= 0
+ CONTRAINT_11[2,9]: x[2,9] - alpha[2,9] <= 0
+ CONTRAINT_11[3,4]: x[3,4] - alpha[3,4] <= 0
+ CONTRAINT_11[3,5]: x[3,5] - alpha[3,5] <= 0
+ CONTRAINT_11[3,6]: x[3,6] - alpha[3,6] <= 0
+ CONTRAINT_11[3,7]: x[3,7] - alpha[3,7] <= 0
+ CONTRAINT_11[3,8]: x[3,8] - alpha[3,8] <= 0
+ CONTRAINT_11[3,9]: x[3,9] - alpha[3,9] <= 0
+ CONTRAINT_11[4,5]: x[4,5] - alpha[4,5] <= 0
+ CONTRAINT_11[4,6]: x[4,6] - alpha[4,6] <= 0
+ CONTRAINT_11[4,7]: x[4,7] - alpha[4,7] <= 0
+ CONTRAINT_11[4,8]: x[4,8] - alpha[4,8] <= 0
+ CONTRAINT_11[4,9]: x[4,9] - alpha[4,9] <= 0
+ CONTRAINT_11[5,6]: x[5,6] - alpha[5,6] <= 0
+ CONTRAINT_11[5,7]: x[5,7] - alpha[5,7] <= 0
+ CONTRAINT_11[5,8]: x[5,8] - alpha[5,8] <= 0
+ CONTRAINT_11[5,9]: x[5,9] - alpha[5,9] <= 0
+ CONTRAINT_11[6,7]: x[6,7] - alpha[6,7] <= 0
+ CONTRAINT_11[6,8]: x[6,8] - alpha[6,8] <= 0
+ CONTRAINT_11[6,9]: x[6,9] - alpha[6,9] <= 0
+ CONTRAINT_11[7,8]: x[7,8] - alpha[7,8] <= 0
+ CONTRAINT_11[7,9]: x[7,9] - alpha[7,9] <= 0
+ CONTRAINT_11[8,9]: x[8,9] - alpha[8,9] <= 0
  CONSTRAINT_12[0,1]: x[0,1] + y[0,1] = 1
  CONSTRAINT_12[0,2]: x[0,1] + x[0,2] + y[0,2] = 1
  CONSTRAINT_12[0,3]: x[0,1] + x[0,2] + x[0,3] + y[0,3] = 1
@@ -816,47 +358,47 @@ Subject To
  CONSTRAINT_13[7,8]: = 0
  CONSTRAINT_13[7,9]: x[7,8] - x[8,9] = 0
  CONSTRAINT_13[8,9]: = 0
- CONSTRAINT_16: - 320 y[0,1] - 214 y[0,2] - 370 y[0,3] - 259 y[0,4]
-   - 337 y[0,5] - 287 y[0,6] - 172 y[0,7] - 453 y[0,8] - 416 y[0,9] + w[0]
+ CONSTRAINT_16: - 73 y[0,1] - 322 y[0,2] - 497 y[0,3] - 347 y[0,4]
+   - 392 y[0,5] - 312 y[0,6] - 448 y[0,7] - 24 y[0,8] - 26 y[0,9] + w[0]
    = 0
- CONSTRAINT_17[1]: - 214 y[0,2] - 370 y[0,3] - 259 y[0,4] - 337 y[0,5]
-   - 287 y[0,6] - 172 y[0,7] - 453 y[0,8] - 416 y[0,9] - 493 y[1,2]
-   - 45 y[1,3] - 12 y[1,4] - 150 y[1,5] - 125 y[1,6] - 34 y[1,7]
-   - 265 y[1,8] - 43 y[1,9] + w[1] = 0
- CONSTRAINT_17[2]: - 370 y[0,3] - 259 y[0,4] - 337 y[0,5] - 287 y[0,6]
-   - 172 y[0,7] - 453 y[0,8] - 416 y[0,9] - 45 y[1,3] - 12 y[1,4]
-   - 150 y[1,5] - 125 y[1,6] - 34 y[1,7] - 265 y[1,8] - 43 y[1,9]
-   - 249 y[2,3] - 23 y[2,4] - 65 y[2,5] - 349 y[2,6] - 332 y[2,7]
-   - 318 y[2,8] - 261 y[2,9] + w[2] = 0
- CONSTRAINT_17[3]: - 259 y[0,4] - 337 y[0,5] - 287 y[0,6] - 172 y[0,7]
-   - 453 y[0,8] - 416 y[0,9] - 12 y[1,4] - 150 y[1,5] - 125 y[1,6]
-   - 34 y[1,7] - 265 y[1,8] - 43 y[1,9] - 23 y[2,4] - 65 y[2,5]
-   - 349 y[2,6] - 332 y[2,7] - 318 y[2,8] - 261 y[2,9] - 88 y[3,4]
-   - 120 y[3,5] - 242 y[3,6] - 29 y[3,7] - 375 y[3,8] - 405 y[3,9] + w[3]
+ CONSTRAINT_17[1]: - 322 y[0,2] - 497 y[0,3] - 347 y[0,4] - 392 y[0,5]
+   - 312 y[0,6] - 448 y[0,7] - 24 y[0,8] - 26 y[0,9] - 40 y[1,2]
+   - 364 y[1,3] - 425 y[1,4] - 201 y[1,5] - 274 y[1,6] - 350 y[1,7]
+   - 348 y[1,8] - 190 y[1,9] + w[1] = 0
+ CONSTRAINT_17[2]: - 497 y[0,3] - 347 y[0,4] - 392 y[0,5] - 312 y[0,6]
+   - 448 y[0,7] - 24 y[0,8] - 26 y[0,9] - 364 y[1,3] - 425 y[1,4]
+   - 201 y[1,5] - 274 y[1,6] - 350 y[1,7] - 348 y[1,8] - 190 y[1,9]
+   - 47 y[2,3] - 61 y[2,4] - 443 y[2,5] - 323 y[2,6] - 39 y[2,7]
+   - 372 y[2,8] - 119 y[2,9] + w[2] = 0
+ CONSTRAINT_17[3]: - 347 y[0,4] - 392 y[0,5] - 312 y[0,6] - 448 y[0,7]
+   - 24 y[0,8] - 26 y[0,9] - 425 y[1,4] - 201 y[1,5] - 274 y[1,6]
+   - 350 y[1,7] - 348 y[1,8] - 190 y[1,9] - 61 y[2,4] - 443 y[2,5]
+   - 323 y[2,6] - 39 y[2,7] - 372 y[2,8] - 119 y[2,9] - 19 y[3,4]
+   - 240 y[3,5] - 400 y[3,6] - 51 y[3,7] - 313 y[3,8] - 379 y[3,9] + w[3]
    = 0
- CONSTRAINT_17[4]: - 337 y[0,5] - 287 y[0,6] - 172 y[0,7] - 453 y[0,8]
-   - 416 y[0,9] - 150 y[1,5] - 125 y[1,6] - 34 y[1,7] - 265 y[1,8]
-   - 43 y[1,9] - 65 y[2,5] - 349 y[2,6] - 332 y[2,7] - 318 y[2,8]
-   - 261 y[2,9] - 120 y[3,5] - 242 y[3,6] - 29 y[3,7] - 375 y[3,8]
-   - 405 y[3,9] - 344 y[4,5] - 408 y[4,6] - 157 y[4,7] - 110 y[4,8]
-   - 323 y[4,9] + w[4] = 0
- CONSTRAINT_17[5]: - 287 y[0,6] - 172 y[0,7] - 453 y[0,8] - 416 y[0,9]
-   - 125 y[1,6] - 34 y[1,7] - 265 y[1,8] - 43 y[1,9] - 349 y[2,6]
-   - 332 y[2,7] - 318 y[2,8] - 261 y[2,9] - 242 y[3,6] - 29 y[3,7]
-   - 375 y[3,8] - 405 y[3,9] - 408 y[4,6] - 157 y[4,7] - 110 y[4,8]
-   - 323 y[4,9] - 195 y[5,6] - 153 y[5,7] - 444 y[5,8] - 318 y[5,9] + w[5]
+ CONSTRAINT_17[4]: - 392 y[0,5] - 312 y[0,6] - 448 y[0,7] - 24 y[0,8]
+   - 26 y[0,9] - 201 y[1,5] - 274 y[1,6] - 350 y[1,7] - 348 y[1,8]
+   - 190 y[1,9] - 443 y[2,5] - 323 y[2,6] - 39 y[2,7] - 372 y[2,8]
+   - 119 y[2,9] - 240 y[3,5] - 400 y[3,6] - 51 y[3,7] - 313 y[3,8]
+   - 379 y[3,9] - 215 y[4,5] - 353 y[4,6] - 459 y[4,7] - 167 y[4,8]
+   - 188 y[4,9] + w[4] = 0
+ CONSTRAINT_17[5]: - 312 y[0,6] - 448 y[0,7] - 24 y[0,8] - 26 y[0,9]
+   - 274 y[1,6] - 350 y[1,7] - 348 y[1,8] - 190 y[1,9] - 323 y[2,6]
+   - 39 y[2,7] - 372 y[2,8] - 119 y[2,9] - 400 y[3,6] - 51 y[3,7]
+   - 313 y[3,8] - 379 y[3,9] - 353 y[4,6] - 459 y[4,7] - 167 y[4,8]
+   - 188 y[4,9] - 88 y[5,6] - 493 y[5,7] - 355 y[5,8] - 12 y[5,9] + w[5]
    = 0
- CONSTRAINT_17[6]: - 172 y[0,7] - 453 y[0,8] - 416 y[0,9] - 34 y[1,7]
-   - 265 y[1,8] - 43 y[1,9] - 332 y[2,7] - 318 y[2,8] - 261 y[2,9]
-   - 29 y[3,7] - 375 y[3,8] - 405 y[3,9] - 157 y[4,7] - 110 y[4,8]
-   - 323 y[4,9] - 153 y[5,7] - 444 y[5,8] - 318 y[5,9] - 147 y[6,7]
-   - 343 y[6,8] - 32 y[6,9] + w[6] = 0
- CONSTRAINT_17[7]: - 453 y[0,8] - 416 y[0,9] - 265 y[1,8] - 43 y[1,9]
-   - 318 y[2,8] - 261 y[2,9] - 375 y[3,8] - 405 y[3,9] - 110 y[4,8]
-   - 323 y[4,9] - 444 y[5,8] - 318 y[5,9] - 343 y[6,8] - 32 y[6,9]
-   - 89 y[7,8] - 441 y[7,9] + w[7] = 0
- CONSTRAINT_17[8]: - 416 y[0,9] - 43 y[1,9] - 261 y[2,9] - 405 y[3,9]
-   - 323 y[4,9] - 318 y[5,9] - 32 y[6,9] - 441 y[7,9] - 394 y[8,9] + w[8]
+ CONSTRAINT_17[6]: - 448 y[0,7] - 24 y[0,8] - 26 y[0,9] - 350 y[1,7]
+   - 348 y[1,8] - 190 y[1,9] - 39 y[2,7] - 372 y[2,8] - 119 y[2,9]
+   - 51 y[3,7] - 313 y[3,8] - 379 y[3,9] - 459 y[4,7] - 167 y[4,8]
+   - 188 y[4,9] - 493 y[5,7] - 355 y[5,8] - 12 y[5,9] - 345 y[6,7]
+   - 215 y[6,8] - 184 y[6,9] + w[6] = 0
+ CONSTRAINT_17[7]: - 24 y[0,8] - 26 y[0,9] - 348 y[1,8] - 190 y[1,9]
+   - 372 y[2,8] - 119 y[2,9] - 313 y[3,8] - 379 y[3,9] - 167 y[4,8]
+   - 188 y[4,9] - 355 y[5,8] - 12 y[5,9] - 215 y[6,8] - 184 y[6,9]
+   - 63 y[7,8] - 429 y[7,9] + w[7] = 0
+ CONSTRAINT_17[8]: - 26 y[0,9] - 190 y[1,9] - 119 y[2,9] - 379 y[3,9]
+   - 188 y[4,9] - 12 y[5,9] - 184 y[6,9] - 429 y[7,9] - 408 y[8,9] + w[8]
    = 0
  CONSTRAINT_lower_18[0]: w[0] >= 0
  CONSTRAINT_lower_18[1]: w[1] >= 0
@@ -867,198 +409,196 @@ Subject To
  CONSTRAINT_lower_18[6]: w[6] >= 0
  CONSTRAINT_lower_18[7]: w[7] >= 0
  CONSTRAINT_lower_18[8]: w[8] >= 0
- CONSTRAINT_upper_18[0]: w[0] <= 160
- CONSTRAINT_upper_18[1]: w[1] <= 160
- CONSTRAINT_upper_18[2]: w[2] <= 160
- CONSTRAINT_upper_18[3]: w[3] <= 160
- CONSTRAINT_upper_18[4]: w[4] <= 160
- CONSTRAINT_upper_18[5]: w[5] <= 160
- CONSTRAINT_upper_18[6]: w[6] <= 160
- CONSTRAINT_upper_18[7]: w[7] <= 160
- CONSTRAINT_upper_18[8]: w[8] <= 160
- CONSTRAINT_19[0,1]: - 1440 alpha[0,1] + 320 x[0,1] <= 0
- CONSTRAINT_19[0,2]: - 1440 alpha[0,2] + 214 x[0,1] + 214 x[0,2]
-   + 214 x[1,2] <= 0
- CONSTRAINT_19[0,3]: - 1440 alpha[0,3] + 370 x[0,1] + 370 x[0,2]
-   + 370 x[0,3] + 370 x[1,2] + 370 x[1,3] + 370 x[2,3] <= 0
- CONSTRAINT_19[0,4]: - 1440 alpha[0,4] + 259 x[0,1] + 259 x[0,2]
-   + 259 x[0,3] + 259 x[0,4] + 259 x[1,2] + 259 x[1,3] + 259 x[1,4]
-   + 259 x[2,3] + 259 x[2,4] + 259 x[3,4] <= 0
- CONSTRAINT_19[0,5]: - 1440 alpha[0,5] + 337 x[0,1] + 337 x[0,2]
-   + 337 x[0,3] + 337 x[0,4] + 337 x[0,5] + 337 x[1,2] + 337 x[1,3]
-   + 337 x[1,4] + 337 x[1,5] + 337 x[2,3] + 337 x[2,4] + 337 x[2,5]
-   + 337 x[3,4] + 337 x[3,5] + 337 x[4,5] <= 0
- CONSTRAINT_19[0,6]: - 1440 alpha[0,6] + 287 x[0,1] + 287 x[0,2]
-   + 287 x[0,3] + 287 x[0,4] + 287 x[0,5] + 287 x[0,6] + 287 x[1,2]
-   + 287 x[1,3] + 287 x[1,4] + 287 x[1,5] + 287 x[1,6] + 287 x[2,3]
-   + 287 x[2,4] + 287 x[2,5] + 287 x[2,6] + 287 x[3,4] + 287 x[3,5]
-   + 287 x[3,6] + 287 x[4,5] + 287 x[4,6] + 287 x[5,6] <= 0
- CONSTRAINT_19[0,7]: - 1440 alpha[0,7] + 172 x[0,1] + 172 x[0,2]
-   + 172 x[0,3] + 172 x[0,4] + 172 x[0,5] + 172 x[0,6] + 172 x[0,7]
-   + 172 x[1,2] + 172 x[1,3] + 172 x[1,4] + 172 x[1,5] + 172 x[1,6]
-   + 172 x[1,7] + 172 x[2,3] + 172 x[2,4] + 172 x[2,5] + 172 x[2,6]
-   + 172 x[2,7] + 172 x[3,4] + 172 x[3,5] + 172 x[3,6] + 172 x[3,7]
-   + 172 x[4,5] + 172 x[4,6] + 172 x[4,7] + 172 x[5,6] + 172 x[5,7]
-   + 172 x[6,7] <= 0
- CONSTRAINT_19[0,8]: - 1440 alpha[0,8] + 453 x[0,1] + 453 x[0,2]
-   + 453 x[0,3] + 453 x[0,4] + 453 x[0,5] + 453 x[0,6] + 453 x[0,7]
-   + 453 x[0,8] + 453 x[1,2] + 453 x[1,3] + 453 x[1,4] + 453 x[1,5]
-   + 453 x[1,6] + 453 x[1,7] + 453 x[1,8] + 453 x[2,3] + 453 x[2,4]
-   + 453 x[2,5] + 453 x[2,6] + 453 x[2,7] + 453 x[2,8] + 453 x[3,4]
-   + 453 x[3,5] + 453 x[3,6] + 453 x[3,7] + 453 x[3,8] + 453 x[4,5]
-   + 453 x[4,6] + 453 x[4,7] + 453 x[4,8] + 453 x[5,6] + 453 x[5,7]
-   + 453 x[5,8] + 453 x[6,7] + 453 x[6,8] + 453 x[7,8] <= 0
- CONSTRAINT_19[0,9]: - 1440 alpha[0,9] + 416 x[0,1] + 416 x[0,2]
-   + 416 x[0,3] + 416 x[0,4] + 416 x[0,5] + 416 x[0,6] + 416 x[0,7]
-   + 416 x[0,8] + 416 x[0,9] + 416 x[1,2] + 416 x[1,3] + 416 x[1,4]
-   + 416 x[1,5] + 416 x[1,6] + 416 x[1,7] + 416 x[1,8] + 416 x[1,9]
-   + 416 x[2,3] + 416 x[2,4] + 416 x[2,5] + 416 x[2,6] + 416 x[2,7]
-   + 416 x[2,8] + 416 x[2,9] + 416 x[3,4] + 416 x[3,5] + 416 x[3,6]
-   + 416 x[3,7] + 416 x[3,8] + 416 x[3,9] + 416 x[4,5] + 416 x[4,6]
-   + 416 x[4,7] + 416 x[4,8] + 416 x[4,9] + 416 x[5,6] + 416 x[5,7]
-   + 416 x[5,8] + 416 x[5,9] + 416 x[6,7] + 416 x[6,8] + 416 x[6,9]
-   + 416 x[7,8] + 416 x[7,9] + 416 x[8,9] <= 0
- CONSTRAINT_19[1,2]: - 1440 alpha[1,2] + 493 x[1,2] <= 0
- CONSTRAINT_19[1,3]: - 1440 alpha[1,3] + 45 x[1,2] + 45 x[1,3] + 45 x[2,3]
+ CONSTRAINT_upper_18[0]: w[0] <= 1200
+ CONSTRAINT_upper_18[1]: w[1] <= 1200
+ CONSTRAINT_upper_18[2]: w[2] <= 1200
+ CONSTRAINT_upper_18[3]: w[3] <= 1200
+ CONSTRAINT_upper_18[4]: w[4] <= 1200
+ CONSTRAINT_upper_18[5]: w[5] <= 1200
+ CONSTRAINT_upper_18[6]: w[6] <= 1200
+ CONSTRAINT_upper_18[7]: w[7] <= 1200
+ CONSTRAINT_upper_18[8]: w[8] <= 1200
+ CONSTRAINT_19[0,1]: 73 x[0,1] - 400 alpha[0,1] <= 0
+ CONSTRAINT_19[0,2]: 322 x[0,1] + 322 x[0,2] + 322 x[1,2] - 400 alpha[0,2]
    <= 0
- CONSTRAINT_19[1,4]: - 1440 alpha[1,4] + 12 x[1,2] + 12 x[1,3] + 12 x[1,4]
-   + 12 x[2,3] + 12 x[2,4] + 12 x[3,4] <= 0
- CONSTRAINT_19[1,5]: - 1440 alpha[1,5] + 150 x[1,2] + 150 x[1,3]
-   + 150 x[1,4] + 150 x[1,5] + 150 x[2,3] + 150 x[2,4] + 150 x[2,5]
-   + 150 x[3,4] + 150 x[3,5] + 150 x[4,5] <= 0
- CONSTRAINT_19[1,6]: - 1440 alpha[1,6] + 125 x[1,2] + 125 x[1,3]
-   + 125 x[1,4] + 125 x[1,5] + 125 x[1,6] + 125 x[2,3] + 125 x[2,4]
-   + 125 x[2,5] + 125 x[2,6] + 125 x[3,4] + 125 x[3,5] + 125 x[3,6]
-   + 125 x[4,5] + 125 x[4,6] + 125 x[5,6] <= 0
- CONSTRAINT_19[1,7]: - 1440 alpha[1,7] + 34 x[1,2] + 34 x[1,3] + 34 x[1,4]
-   + 34 x[1,5] + 34 x[1,6] + 34 x[1,7] + 34 x[2,3] + 34 x[2,4] + 34 x[2,5]
-   + 34 x[2,6] + 34 x[2,7] + 34 x[3,4] + 34 x[3,5] + 34 x[3,6] + 34 x[3,7]
-   + 34 x[4,5] + 34 x[4,6] + 34 x[4,7] + 34 x[5,6] + 34 x[5,7] + 34 x[6,7]
+ CONSTRAINT_19[0,3]: 497 x[0,1] + 497 x[0,2] + 497 x[0,3] + 497 x[1,2]
+   + 497 x[1,3] + 497 x[2,3] - 400 alpha[0,3] <= 0
+ CONSTRAINT_19[0,4]: 347 x[0,1] + 347 x[0,2] + 347 x[0,3] + 347 x[0,4]
+   + 347 x[1,2] + 347 x[1,3] + 347 x[1,4] + 347 x[2,3] + 347 x[2,4]
+   + 347 x[3,4] - 400 alpha[0,4] <= 0
+ CONSTRAINT_19[0,5]: 392 x[0,1] + 392 x[0,2] + 392 x[0,3] + 392 x[0,4]
+   + 392 x[0,5] + 392 x[1,2] + 392 x[1,3] + 392 x[1,4] + 392 x[1,5]
+   + 392 x[2,3] + 392 x[2,4] + 392 x[2,5] + 392 x[3,4] + 392 x[3,5]
+   + 392 x[4,5] - 400 alpha[0,5] <= 0
+ CONSTRAINT_19[0,6]: 312 x[0,1] + 312 x[0,2] + 312 x[0,3] + 312 x[0,4]
+   + 312 x[0,5] + 312 x[0,6] + 312 x[1,2] + 312 x[1,3] + 312 x[1,4]
+   + 312 x[1,5] + 312 x[1,6] + 312 x[2,3] + 312 x[2,4] + 312 x[2,5]
+   + 312 x[2,6] + 312 x[3,4] + 312 x[3,5] + 312 x[3,6] + 312 x[4,5]
+   + 312 x[4,6] + 312 x[5,6] - 400 alpha[0,6] <= 0
+ CONSTRAINT_19[0,7]: 448 x[0,1] + 448 x[0,2] + 448 x[0,3] + 448 x[0,4]
+   + 448 x[0,5] + 448 x[0,6] + 448 x[0,7] + 448 x[1,2] + 448 x[1,3]
+   + 448 x[1,4] + 448 x[1,5] + 448 x[1,6] + 448 x[1,7] + 448 x[2,3]
+   + 448 x[2,4] + 448 x[2,5] + 448 x[2,6] + 448 x[2,7] + 448 x[3,4]
+   + 448 x[3,5] + 448 x[3,6] + 448 x[3,7] + 448 x[4,5] + 448 x[4,6]
+   + 448 x[4,7] + 448 x[5,6] + 448 x[5,7] + 448 x[6,7] - 400 alpha[0,7]
    <= 0
- CONSTRAINT_19[1,8]: - 1440 alpha[1,8] + 265 x[1,2] + 265 x[1,3]
-   + 265 x[1,4] + 265 x[1,5] + 265 x[1,6] + 265 x[1,7] + 265 x[1,8]
-   + 265 x[2,3] + 265 x[2,4] + 265 x[2,5] + 265 x[2,6] + 265 x[2,7]
-   + 265 x[2,8] + 265 x[3,4] + 265 x[3,5] + 265 x[3,6] + 265 x[3,7]
-   + 265 x[3,8] + 265 x[4,5] + 265 x[4,6] + 265 x[4,7] + 265 x[4,8]
-   + 265 x[5,6] + 265 x[5,7] + 265 x[5,8] + 265 x[6,7] + 265 x[6,8]
-   + 265 x[7,8] <= 0
- CONSTRAINT_19[1,9]: - 1440 alpha[1,9] + 43 x[1,2] + 43 x[1,3] + 43 x[1,4]
-   + 43 x[1,5] + 43 x[1,6] + 43 x[1,7] + 43 x[1,8] + 43 x[1,9] + 43 x[2,3]
-   + 43 x[2,4] + 43 x[2,5] + 43 x[2,6] + 43 x[2,7] + 43 x[2,8] + 43 x[2,9]
-   + 43 x[3,4] + 43 x[3,5] + 43 x[3,6] + 43 x[3,7] + 43 x[3,8] + 43 x[3,9]
-   + 43 x[4,5] + 43 x[4,6] + 43 x[4,7] + 43 x[4,8] + 43 x[4,9] + 43 x[5,6]
-   + 43 x[5,7] + 43 x[5,8] + 43 x[5,9] + 43 x[6,7] + 43 x[6,8] + 43 x[6,9]
-   + 43 x[7,8] + 43 x[7,9] + 43 x[8,9] <= 0
- CONSTRAINT_19[2,3]: - 1440 alpha[2,3] + 249 x[2,3] <= 0
- CONSTRAINT_19[2,4]: - 1440 alpha[2,4] + 23 x[2,3] + 23 x[2,4] + 23 x[3,4]
+ CONSTRAINT_19[0,8]: 24 x[0,1] + 24 x[0,2] + 24 x[0,3] + 24 x[0,4]
+   + 24 x[0,5] + 24 x[0,6] + 24 x[0,7] + 24 x[0,8] + 24 x[1,2] + 24 x[1,3]
+   + 24 x[1,4] + 24 x[1,5] + 24 x[1,6] + 24 x[1,7] + 24 x[1,8] + 24 x[2,3]
+   + 24 x[2,4] + 24 x[2,5] + 24 x[2,6] + 24 x[2,7] + 24 x[2,8] + 24 x[3,4]
+   + 24 x[3,5] + 24 x[3,6] + 24 x[3,7] + 24 x[3,8] + 24 x[4,5] + 24 x[4,6]
+   + 24 x[4,7] + 24 x[4,8] + 24 x[5,6] + 24 x[5,7] + 24 x[5,8] + 24 x[6,7]
+   + 24 x[6,8] + 24 x[7,8] - 400 alpha[0,8] <= 0
+ CONSTRAINT_19[0,9]: 26 x[0,1] + 26 x[0,2] + 26 x[0,3] + 26 x[0,4]
+   + 26 x[0,5] + 26 x[0,6] + 26 x[0,7] + 26 x[0,8] + 26 x[0,9] + 26 x[1,2]
+   + 26 x[1,3] + 26 x[1,4] + 26 x[1,5] + 26 x[1,6] + 26 x[1,7] + 26 x[1,8]
+   + 26 x[1,9] + 26 x[2,3] + 26 x[2,4] + 26 x[2,5] + 26 x[2,6] + 26 x[2,7]
+   + 26 x[2,8] + 26 x[2,9] + 26 x[3,4] + 26 x[3,5] + 26 x[3,6] + 26 x[3,7]
+   + 26 x[3,8] + 26 x[3,9] + 26 x[4,5] + 26 x[4,6] + 26 x[4,7] + 26 x[4,8]
+   + 26 x[4,9] + 26 x[5,6] + 26 x[5,7] + 26 x[5,8] + 26 x[5,9] + 26 x[6,7]
+   + 26 x[6,8] + 26 x[6,9] + 26 x[7,8] + 26 x[7,9] + 26 x[8,9]
+   - 400 alpha[0,9] <= 0
+ CONSTRAINT_19[1,2]: 40 x[1,2] - 400 alpha[1,2] <= 0
+ CONSTRAINT_19[1,3]: 364 x[1,2] + 364 x[1,3] + 364 x[2,3] - 400 alpha[1,3]
    <= 0
- CONSTRAINT_19[2,5]: - 1440 alpha[2,5] + 65 x[2,3] + 65 x[2,4] + 65 x[2,5]
-   + 65 x[3,4] + 65 x[3,5] + 65 x[4,5] <= 0
- CONSTRAINT_19[2,6]: - 1440 alpha[2,6] + 349 x[2,3] + 349 x[2,4]
-   + 349 x[2,5] + 349 x[2,6] + 349 x[3,4] + 349 x[3,5] + 349 x[3,6]
-   + 349 x[4,5] + 349 x[4,6] + 349 x[5,6] <= 0
- CONSTRAINT_19[2,7]: - 1440 alpha[2,7] + 332 x[2,3] + 332 x[2,4]
-   + 332 x[2,5] + 332 x[2,6] + 332 x[2,7] + 332 x[3,4] + 332 x[3,5]
-   + 332 x[3,6] + 332 x[3,7] + 332 x[4,5] + 332 x[4,6] + 332 x[4,7]
-   + 332 x[5,6] + 332 x[5,7] + 332 x[6,7] <= 0
- CONSTRAINT_19[2,8]: - 1440 alpha[2,8] + 318 x[2,3] + 318 x[2,4]
-   + 318 x[2,5] + 318 x[2,6] + 318 x[2,7] + 318 x[2,8] + 318 x[3,4]
-   + 318 x[3,5] + 318 x[3,6] + 318 x[3,7] + 318 x[3,8] + 318 x[4,5]
-   + 318 x[4,6] + 318 x[4,7] + 318 x[4,8] + 318 x[5,6] + 318 x[5,7]
-   + 318 x[5,8] + 318 x[6,7] + 318 x[6,8] + 318 x[7,8] <= 0
- CONSTRAINT_19[2,9]: - 1440 alpha[2,9] + 261 x[2,3] + 261 x[2,4]
-   + 261 x[2,5] + 261 x[2,6] + 261 x[2,7] + 261 x[2,8] + 261 x[2,9]
-   + 261 x[3,4] + 261 x[3,5] + 261 x[3,6] + 261 x[3,7] + 261 x[3,8]
-   + 261 x[3,9] + 261 x[4,5] + 261 x[4,6] + 261 x[4,7] + 261 x[4,8]
-   + 261 x[4,9] + 261 x[5,6] + 261 x[5,7] + 261 x[5,8] + 261 x[5,9]
-   + 261 x[6,7] + 261 x[6,8] + 261 x[6,9] + 261 x[7,8] + 261 x[7,9]
-   + 261 x[8,9] <= 0
- CONSTRAINT_19[3,4]: - 1440 alpha[3,4] + 88 x[3,4] <= 0
- CONSTRAINT_19[3,5]: - 1440 alpha[3,5] + 120 x[3,4] + 120 x[3,5]
-   + 120 x[4,5] <= 0
- CONSTRAINT_19[3,6]: - 1440 alpha[3,6] + 242 x[3,4] + 242 x[3,5]
-   + 242 x[3,6] + 242 x[4,5] + 242 x[4,6] + 242 x[5,6] <= 0
- CONSTRAINT_19[3,7]: - 1440 alpha[3,7] + 29 x[3,4] + 29 x[3,5] + 29 x[3,6]
-   + 29 x[3,7] + 29 x[4,5] + 29 x[4,6] + 29 x[4,7] + 29 x[5,6] + 29 x[5,7]
-   + 29 x[6,7] <= 0
- CONSTRAINT_19[3,8]: - 1440 alpha[3,8] + 375 x[3,4] + 375 x[3,5]
-   + 375 x[3,6] + 375 x[3,7] + 375 x[3,8] + 375 x[4,5] + 375 x[4,6]
-   + 375 x[4,7] + 375 x[4,8] + 375 x[5,6] + 375 x[5,7] + 375 x[5,8]
-   + 375 x[6,7] + 375 x[6,8] + 375 x[7,8] <= 0
- CONSTRAINT_19[3,9]: - 1440 alpha[3,9] + 405 x[3,4] + 405 x[3,5]
-   + 405 x[3,6] + 405 x[3,7] + 405 x[3,8] + 405 x[3,9] + 405 x[4,5]
-   + 405 x[4,6] + 405 x[4,7] + 405 x[4,8] + 405 x[4,9] + 405 x[5,6]
-   + 405 x[5,7] + 405 x[5,8] + 405 x[5,9] + 405 x[6,7] + 405 x[6,8]
-   + 405 x[6,9] + 405 x[7,8] + 405 x[7,9] + 405 x[8,9] <= 0
- CONSTRAINT_19[4,5]: - 1440 alpha[4,5] + 344 x[4,5] <= 0
- CONSTRAINT_19[4,6]: - 1440 alpha[4,6] + 408 x[4,5] + 408 x[4,6]
-   + 408 x[5,6] <= 0
- CONSTRAINT_19[4,7]: - 1440 alpha[4,7] + 157 x[4,5] + 157 x[4,6]
-   + 157 x[4,7] + 157 x[5,6] + 157 x[5,7] + 157 x[6,7] <= 0
- CONSTRAINT_19[4,8]: - 1440 alpha[4,8] + 110 x[4,5] + 110 x[4,6]
-   + 110 x[4,7] + 110 x[4,8] + 110 x[5,6] + 110 x[5,7] + 110 x[5,8]
-   + 110 x[6,7] + 110 x[6,8] + 110 x[7,8] <= 0
- CONSTRAINT_19[4,9]: - 1440 alpha[4,9] + 323 x[4,5] + 323 x[4,6]
-   + 323 x[4,7] + 323 x[4,8] + 323 x[4,9] + 323 x[5,6] + 323 x[5,7]
-   + 323 x[5,8] + 323 x[5,9] + 323 x[6,7] + 323 x[6,8] + 323 x[6,9]
-   + 323 x[7,8] + 323 x[7,9] + 323 x[8,9] <= 0
- CONSTRAINT_19[5,6]: - 1440 alpha[5,6] + 195 x[5,6] <= 0
- CONSTRAINT_19[5,7]: - 1440 alpha[5,7] + 153 x[5,6] + 153 x[5,7]
-   + 153 x[6,7] <= 0
- CONSTRAINT_19[5,8]: - 1440 alpha[5,8] + 444 x[5,6] + 444 x[5,7]
-   + 444 x[5,8] + 444 x[6,7] + 444 x[6,8] + 444 x[7,8] <= 0
- CONSTRAINT_19[5,9]: - 1440 alpha[5,9] + 318 x[5,6] + 318 x[5,7]
-   + 318 x[5,8] + 318 x[5,9] + 318 x[6,7] + 318 x[6,8] + 318 x[6,9]
-   + 318 x[7,8] + 318 x[7,9] + 318 x[8,9] <= 0
- CONSTRAINT_19[6,7]: - 1440 alpha[6,7] + 147 x[6,7] <= 0
- CONSTRAINT_19[6,8]: - 1440 alpha[6,8] + 343 x[6,7] + 343 x[6,8]
-   + 343 x[7,8] <= 0
- CONSTRAINT_19[6,9]: - 1440 alpha[6,9] + 32 x[6,7] + 32 x[6,8] + 32 x[6,9]
-   + 32 x[7,8] + 32 x[7,9] + 32 x[8,9] <= 0
- CONSTRAINT_19[7,8]: - 1440 alpha[7,8] + 89 x[7,8] <= 0
- CONSTRAINT_19[7,9]: - 1440 alpha[7,9] + 441 x[7,8] + 441 x[7,9]
-   + 441 x[8,9] <= 0
- CONSTRAINT_19[8,9]: - 1440 alpha[8,9] + 394 x[8,9] <= 0
- CONSTRAINT_21[0,1]: x[0,1] <= 0.9
- CONSTRAINT_21[0,2]: - 0.0714285714285714 alpha[0,2] + x[0,1] + x[0,2]
-   <= 0.9
- CONSTRAINT_21[0,3]: - 0.0454545454545455 alpha[0,2]
-   - 0.0909090909090909 alpha[0,3] - 0.0454545454545455 alpha[1,3] + x[0,1]
-   + x[0,2] + x[0,3] <= 0.9
- CONSTRAINT_21[0,4]: - 0.0333333333333333 alpha[0,2]
-   - 0.0666666666666667 alpha[0,3] - 0.1 alpha[0,4]
-   - 0.0333333333333333 alpha[1,3] - 0.0666666666666667 alpha[1,4]
-   - 0.0333333333333333 alpha[2,4] + x[0,1] + x[0,2] + x[0,3] + x[0,4]
-   <= 0.9
- CONSTRAINT_21[0,5]: - 0.0263157894736842 alpha[0,2]
-   - 0.0526315789473684 alpha[0,3] - 0.0789473684210526 alpha[0,4]
-   - 0.1052631578947368 alpha[0,5] - 0.0263157894736842 alpha[1,3]
-   - 0.0526315789473684 alpha[1,4] - 0.0789473684210526 alpha[1,5]
-   - 0.0263157894736842 alpha[2,4] - 0.0526315789473684 alpha[2,5]
-   - 0.0263157894736842 alpha[3,5] + x[0,1] + x[0,2] + x[0,3] + x[0,4]
-   + x[0,5] <= 0.9
- CONSTRAINT_21[0,6]: - 0.0217391304347826 alpha[0,2]
-   - 0.0434782608695652 alpha[0,3] - 0.0652173913043478 alpha[0,4]
-   - 0.0869565217391304 alpha[0,5] - 0.108695652173913 alpha[0,6]
-   - 0.0217391304347826 alpha[1,3] - 0.0434782608695652 alpha[1,4]
-   - 0.0652173913043478 alpha[1,5] - 0.0869565217391304 alpha[1,6]
-   - 0.0217391304347826 alpha[2,4] - 0.0434782608695652 alpha[2,5]
-   - 0.0652173913043478 alpha[2,6] - 0.0217391304347826 alpha[3,5]
-   - 0.0434782608695652 alpha[3,6] - 0.0217391304347826 alpha[4,6] + x[0,1]
-   + x[0,2] + x[0,3] + x[0,4] + x[0,5] + x[0,6] <= 0.9
- CONSTRAINT_21[0,7]: - 0.0185185185185185 alpha[0,2]
-   - 0.037037037037037 alpha[0,3] - 0.0555555555555556 alpha[0,4]
-   - 0.0740740740740741 alpha[0,5] - 0.0925925925925926 alpha[0,6]
-   - 0.1111111111111111 alpha[0,7] - 0.0185185185185185 alpha[1,3]
-   - 0.037037037037037 alpha[1,4] - 0.0555555555555556 alpha[1,5]
-   - 0.0740740740740741 alpha[1,6] - 0.0925925925925926 alpha[1,7]
-   - 0.0185185185185185 alpha[2,4] - 0.037037037037037 alpha[2,5]
-   - 0.0555555555555556 alpha[2,6] - 0.0740740740740741 alpha[2,7]
-   - 0.0185185185185185 alpha[3,5] - 0.037037037037037 alpha[3,6]
-   - 0.0555555555555556 alpha[3,7] - 0.0185185185185185 alpha[4,6]
-   - 0.037037037037037 alpha[4,7] - 0.0185185185185185 alpha[5,7] + x[0,1]
-   + x[0,2] + x[0,3] + x[0,4] + x[0,5] + x[0,6] + x[0,7] <= 0.9
- CONSTRAINT_21[0,8]: - 0.0161290322580645 alpha[0,2]
+ CONSTRAINT_19[1,4]: 425 x[1,2] + 425 x[1,3] + 425 x[1,4] + 425 x[2,3]
+   + 425 x[2,4] + 425 x[3,4] - 400 alpha[1,4] <= 0
+ CONSTRAINT_19[1,5]: 201 x[1,2] + 201 x[1,3] + 201 x[1,4] + 201 x[1,5]
+   + 201 x[2,3] + 201 x[2,4] + 201 x[2,5] + 201 x[3,4] + 201 x[3,5]
+   + 201 x[4,5] - 400 alpha[1,5] <= 0
+ CONSTRAINT_19[1,6]: 274 x[1,2] + 274 x[1,3] + 274 x[1,4] + 274 x[1,5]
+   + 274 x[1,6] + 274 x[2,3] + 274 x[2,4] + 274 x[2,5] + 274 x[2,6]
+   + 274 x[3,4] + 274 x[3,5] + 274 x[3,6] + 274 x[4,5] + 274 x[4,6]
+   + 274 x[5,6] - 400 alpha[1,6] <= 0
+ CONSTRAINT_19[1,7]: 350 x[1,2] + 350 x[1,3] + 350 x[1,4] + 350 x[1,5]
+   + 350 x[1,6] + 350 x[1,7] + 350 x[2,3] + 350 x[2,4] + 350 x[2,5]
+   + 350 x[2,6] + 350 x[2,7] + 350 x[3,4] + 350 x[3,5] + 350 x[3,6]
+   + 350 x[3,7] + 350 x[4,5] + 350 x[4,6] + 350 x[4,7] + 350 x[5,6]
+   + 350 x[5,7] + 350 x[6,7] - 400 alpha[1,7] <= 0
+ CONSTRAINT_19[1,8]: 348 x[1,2] + 348 x[1,3] + 348 x[1,4] + 348 x[1,5]
+   + 348 x[1,6] + 348 x[1,7] + 348 x[1,8] + 348 x[2,3] + 348 x[2,4]
+   + 348 x[2,5] + 348 x[2,6] + 348 x[2,7] + 348 x[2,8] + 348 x[3,4]
+   + 348 x[3,5] + 348 x[3,6] + 348 x[3,7] + 348 x[3,8] + 348 x[4,5]
+   + 348 x[4,6] + 348 x[4,7] + 348 x[4,8] + 348 x[5,6] + 348 x[5,7]
+   + 348 x[5,8] + 348 x[6,7] + 348 x[6,8] + 348 x[7,8] - 400 alpha[1,8]
+   <= 0
+ CONSTRAINT_19[1,9]: 190 x[1,2] + 190 x[1,3] + 190 x[1,4] + 190 x[1,5]
+   + 190 x[1,6] + 190 x[1,7] + 190 x[1,8] + 190 x[1,9] + 190 x[2,3]
+   + 190 x[2,4] + 190 x[2,5] + 190 x[2,6] + 190 x[2,7] + 190 x[2,8]
+   + 190 x[2,9] + 190 x[3,4] + 190 x[3,5] + 190 x[3,6] + 190 x[3,7]
+   + 190 x[3,8] + 190 x[3,9] + 190 x[4,5] + 190 x[4,6] + 190 x[4,7]
+   + 190 x[4,8] + 190 x[4,9] + 190 x[5,6] + 190 x[5,7] + 190 x[5,8]
+   + 190 x[5,9] + 190 x[6,7] + 190 x[6,8] + 190 x[6,9] + 190 x[7,8]
+   + 190 x[7,9] + 190 x[8,9] - 400 alpha[1,9] <= 0
+ CONSTRAINT_19[2,3]: 47 x[2,3] - 400 alpha[2,3] <= 0
+ CONSTRAINT_19[2,4]: 61 x[2,3] + 61 x[2,4] + 61 x[3,4] - 400 alpha[2,4]
+   <= 0
+ CONSTRAINT_19[2,5]: 443 x[2,3] + 443 x[2,4] + 443 x[2,5] + 443 x[3,4]
+   + 443 x[3,5] + 443 x[4,5] - 400 alpha[2,5] <= 0
+ CONSTRAINT_19[2,6]: 323 x[2,3] + 323 x[2,4] + 323 x[2,5] + 323 x[2,6]
+   + 323 x[3,4] + 323 x[3,5] + 323 x[3,6] + 323 x[4,5] + 323 x[4,6]
+   + 323 x[5,6] - 400 alpha[2,6] <= 0
+ CONSTRAINT_19[2,7]: 39 x[2,3] + 39 x[2,4] + 39 x[2,5] + 39 x[2,6]
+   + 39 x[2,7] + 39 x[3,4] + 39 x[3,5] + 39 x[3,6] + 39 x[3,7] + 39 x[4,5]
+   + 39 x[4,6] + 39 x[4,7] + 39 x[5,6] + 39 x[5,7] + 39 x[6,7]
+   - 400 alpha[2,7] <= 0
+ CONSTRAINT_19[2,8]: 372 x[2,3] + 372 x[2,4] + 372 x[2,5] + 372 x[2,6]
+   + 372 x[2,7] + 372 x[2,8] + 372 x[3,4] + 372 x[3,5] + 372 x[3,6]
+   + 372 x[3,7] + 372 x[3,8] + 372 x[4,5] + 372 x[4,6] + 372 x[4,7]
+   + 372 x[4,8] + 372 x[5,6] + 372 x[5,7] + 372 x[5,8] + 372 x[6,7]
+   + 372 x[6,8] + 372 x[7,8] - 400 alpha[2,8] <= 0
+ CONSTRAINT_19[2,9]: 119 x[2,3] + 119 x[2,4] + 119 x[2,5] + 119 x[2,6]
+   + 119 x[2,7] + 119 x[2,8] + 119 x[2,9] + 119 x[3,4] + 119 x[3,5]
+   + 119 x[3,6] + 119 x[3,7] + 119 x[3,8] + 119 x[3,9] + 119 x[4,5]
+   + 119 x[4,6] + 119 x[4,7] + 119 x[4,8] + 119 x[4,9] + 119 x[5,6]
+   + 119 x[5,7] + 119 x[5,8] + 119 x[5,9] + 119 x[6,7] + 119 x[6,8]
+   + 119 x[6,9] + 119 x[7,8] + 119 x[7,9] + 119 x[8,9] - 400 alpha[2,9]
+   <= 0
+ CONSTRAINT_19[3,4]: 19 x[3,4] - 400 alpha[3,4] <= 0
+ CONSTRAINT_19[3,5]: 240 x[3,4] + 240 x[3,5] + 240 x[4,5] - 400 alpha[3,5]
+   <= 0
+ CONSTRAINT_19[3,6]: 400 x[3,4] + 400 x[3,5] + 400 x[3,6] + 400 x[4,5]
+   + 400 x[4,6] + 400 x[5,6] - 400 alpha[3,6] <= 0
+ CONSTRAINT_19[3,7]: 51 x[3,4] + 51 x[3,5] + 51 x[3,6] + 51 x[3,7]
+   + 51 x[4,5] + 51 x[4,6] + 51 x[4,7] + 51 x[5,6] + 51 x[5,7] + 51 x[6,7]
+   - 400 alpha[3,7] <= 0
+ CONSTRAINT_19[3,8]: 313 x[3,4] + 313 x[3,5] + 313 x[3,6] + 313 x[3,7]
+   + 313 x[3,8] + 313 x[4,5] + 313 x[4,6] + 313 x[4,7] + 313 x[4,8]
+   + 313 x[5,6] + 313 x[5,7] + 313 x[5,8] + 313 x[6,7] + 313 x[6,8]
+   + 313 x[7,8] - 400 alpha[3,8] <= 0
+ CONSTRAINT_19[3,9]: 379 x[3,4] + 379 x[3,5] + 379 x[3,6] + 379 x[3,7]
+   + 379 x[3,8] + 379 x[3,9] + 379 x[4,5] + 379 x[4,6] + 379 x[4,7]
+   + 379 x[4,8] + 379 x[4,9] + 379 x[5,6] + 379 x[5,7] + 379 x[5,8]
+   + 379 x[5,9] + 379 x[6,7] + 379 x[6,8] + 379 x[6,9] + 379 x[7,8]
+   + 379 x[7,9] + 379 x[8,9] - 400 alpha[3,9] <= 0
+ CONSTRAINT_19[4,5]: 215 x[4,5] - 400 alpha[4,5] <= 0
+ CONSTRAINT_19[4,6]: 353 x[4,5] + 353 x[4,6] + 353 x[5,6] - 400 alpha[4,6]
+   <= 0
+ CONSTRAINT_19[4,7]: 459 x[4,5] + 459 x[4,6] + 459 x[4,7] + 459 x[5,6]
+   + 459 x[5,7] + 459 x[6,7] - 400 alpha[4,7] <= 0
+ CONSTRAINT_19[4,8]: 167 x[4,5] + 167 x[4,6] + 167 x[4,7] + 167 x[4,8]
+   + 167 x[5,6] + 167 x[5,7] + 167 x[5,8] + 167 x[6,7] + 167 x[6,8]
+   + 167 x[7,8] - 400 alpha[4,8] <= 0
+ CONSTRAINT_19[4,9]: 188 x[4,5] + 188 x[4,6] + 188 x[4,7] + 188 x[4,8]
+   + 188 x[4,9] + 188 x[5,6] + 188 x[5,7] + 188 x[5,8] + 188 x[5,9]
+   + 188 x[6,7] + 188 x[6,8] + 188 x[6,9] + 188 x[7,8] + 188 x[7,9]
+   + 188 x[8,9] - 400 alpha[4,9] <= 0
+ CONSTRAINT_19[5,6]: 88 x[5,6] - 400 alpha[5,6] <= 0
+ CONSTRAINT_19[5,7]: 493 x[5,6] + 493 x[5,7] + 493 x[6,7] - 400 alpha[5,7]
+   <= 0
+ CONSTRAINT_19[5,8]: 355 x[5,6] + 355 x[5,7] + 355 x[5,8] + 355 x[6,7]
+   + 355 x[6,8] + 355 x[7,8] - 400 alpha[5,8] <= 0
+ CONSTRAINT_19[5,9]: 12 x[5,6] + 12 x[5,7] + 12 x[5,8] + 12 x[5,9]
+   + 12 x[6,7] + 12 x[6,8] + 12 x[6,9] + 12 x[7,8] + 12 x[7,9] + 12 x[8,9]
+   - 400 alpha[5,9] <= 0
+ CONSTRAINT_19[6,7]: 345 x[6,7] - 400 alpha[6,7] <= 0
+ CONSTRAINT_19[6,8]: 215 x[6,7] + 215 x[6,8] + 215 x[7,8] - 400 alpha[6,8]
+   <= 0
+ CONSTRAINT_19[6,9]: 184 x[6,7] + 184 x[6,8] + 184 x[6,9] + 184 x[7,8]
+   + 184 x[7,9] + 184 x[8,9] - 400 alpha[6,9] <= 0
+ CONSTRAINT_19[7,8]: 63 x[7,8] - 400 alpha[7,8] <= 0
+ CONSTRAINT_19[7,9]: 429 x[7,8] + 429 x[7,9] + 429 x[8,9] - 400 alpha[7,9]
+   <= 0
+ CONSTRAINT_19[8,9]: 408 x[8,9] - 400 alpha[8,9] <= 0
+ CONSTRAINT_21[0,1]: x[0,1] <= 0.25
+ CONSTRAINT_21[0,2]: x[0,1] + x[0,2] - 0.0714285714285714 alpha[0,2]
+   <= 0.25
+ CONSTRAINT_21[0,3]: x[0,1] + x[0,2] + x[0,3]
+   - 0.0454545454545455 alpha[0,2] - 0.0909090909090909 alpha[0,3]
+   - 0.0454545454545455 alpha[1,3] <= 0.25
+ CONSTRAINT_21[0,4]: x[0,1] + x[0,2] + x[0,3] + x[0,4]
+   - 0.0333333333333333 alpha[0,2] - 0.0666666666666667 alpha[0,3]
+   - 0.1 alpha[0,4] - 0.0333333333333333 alpha[1,3]
+   - 0.0666666666666667 alpha[1,4] - 0.0333333333333333 alpha[2,4] <= 0.25
+ CONSTRAINT_21[0,5]: x[0,1] + x[0,2] + x[0,3] + x[0,4] + x[0,5]
+   - 0.0263157894736842 alpha[0,2] - 0.0526315789473684 alpha[0,3]
+   - 0.0789473684210526 alpha[0,4] - 0.1052631578947368 alpha[0,5]
+   - 0.0263157894736842 alpha[1,3] - 0.0526315789473684 alpha[1,4]
+   - 0.0789473684210526 alpha[1,5] - 0.0263157894736842 alpha[2,4]
+   - 0.0526315789473684 alpha[2,5] - 0.0263157894736842 alpha[3,5] <= 0.25
+ CONSTRAINT_21[0,6]: x[0,1] + x[0,2] + x[0,3] + x[0,4] + x[0,5] + x[0,6]
+   - 0.0217391304347826 alpha[0,2] - 0.0434782608695652 alpha[0,3]
+   - 0.0652173913043478 alpha[0,4] - 0.0869565217391304 alpha[0,5]
+   - 0.108695652173913 alpha[0,6] - 0.0217391304347826 alpha[1,3]
+   - 0.0434782608695652 alpha[1,4] - 0.0652173913043478 alpha[1,5]
+   - 0.0869565217391304 alpha[1,6] - 0.0217391304347826 alpha[2,4]
+   - 0.0434782608695652 alpha[2,5] - 0.0652173913043478 alpha[2,6]
+   - 0.0217391304347826 alpha[3,5] - 0.0434782608695652 alpha[3,6]
+   - 0.0217391304347826 alpha[4,6] <= 0.25
+ CONSTRAINT_21[0,7]: x[0,1] + x[0,2] + x[0,3] + x[0,4] + x[0,5] + x[0,6]
+   + x[0,7] - 0.0185185185185185 alpha[0,2] - 0.037037037037037 alpha[0,3]
+   - 0.0555555555555556 alpha[0,4] - 0.0740740740740741 alpha[0,5]
+   - 0.0925925925925926 alpha[0,6] - 0.1111111111111111 alpha[0,7]
+   - 0.0185185185185185 alpha[1,3] - 0.037037037037037 alpha[1,4]
+   - 0.0555555555555556 alpha[1,5] - 0.0740740740740741 alpha[1,6]
+   - 0.0925925925925926 alpha[1,7] - 0.0185185185185185 alpha[2,4]
+   - 0.037037037037037 alpha[2,5] - 0.0555555555555556 alpha[2,6]
+   - 0.0740740740740741 alpha[2,7] - 0.0185185185185185 alpha[3,5]
+   - 0.037037037037037 alpha[3,6] - 0.0555555555555556 alpha[3,7]
+   - 0.0185185185185185 alpha[4,6] - 0.037037037037037 alpha[4,7]
+   - 0.0185185185185185 alpha[5,7] <= 0.25
+ CONSTRAINT_21[0,8]: x[0,1] + x[0,2] + x[0,3] + x[0,4] + x[0,5] + x[0,6]
+   + x[0,7] + x[0,8] - 0.0161290322580645 alpha[0,2]
    - 0.032258064516129 alpha[0,3] - 0.0483870967741935 alpha[0,4]
    - 0.0645161290322581 alpha[0,5] - 0.0806451612903226 alpha[0,6]
    - 0.0967741935483871 alpha[0,7] - 0.1129032258064516 alpha[0,8]
@@ -1072,9 +612,9 @@ Subject To
    - 0.0645161290322581 alpha[3,8] - 0.0161290322580645 alpha[4,6]
    - 0.032258064516129 alpha[4,7] - 0.0483870967741935 alpha[4,8]
    - 0.0161290322580645 alpha[5,7] - 0.032258064516129 alpha[5,8]
-   - 0.0161290322580645 alpha[6,8] + x[0,1] + x[0,2] + x[0,3] + x[0,4]
-   + x[0,5] + x[0,6] + x[0,7] + x[0,8] <= 0.9
- CONSTRAINT_21[0,9]: - 0.0142857142857143 alpha[0,2]
+   - 0.0161290322580645 alpha[6,8] <= 0.25
+ CONSTRAINT_21[0,9]: x[0,1] + x[0,2] + x[0,3] + x[0,4] + x[0,5] + x[0,6]
+   + x[0,7] + x[0,8] + x[0,9] - 0.0142857142857143 alpha[0,2]
    - 0.0285714285714286 alpha[0,3] - 0.0428571428571429 alpha[0,4]
    - 0.0571428571428571 alpha[0,5] - 0.0714285714285714 alpha[0,6]
    - 0.0857142857142857 alpha[0,7] - 0.1 alpha[0,8]
@@ -1092,48 +632,46 @@ Subject To
    - 0.0571428571428571 alpha[4,9] - 0.0142857142857143 alpha[5,7]
    - 0.0285714285714286 alpha[5,8] - 0.0428571428571429 alpha[5,9]
    - 0.0142857142857143 alpha[6,8] - 0.0285714285714286 alpha[6,9]
-   - 0.0142857142857143 alpha[7,9] + x[0,1] + x[0,2] + x[0,3] + x[0,4]
-   + x[0,5] + x[0,6] + x[0,7] + x[0,8] + x[0,9] <= 0.9
- CONSTRAINT_21[1,2]: x[1,2] <= 0.9
- CONSTRAINT_21[1,3]: - 0.0714285714285714 alpha[1,3] + x[1,2] + x[1,3]
-   <= 0.9
- CONSTRAINT_21[1,4]: - 0.0454545454545455 alpha[1,3]
-   - 0.0909090909090909 alpha[1,4] - 0.0454545454545455 alpha[2,4] + x[1,2]
-   + x[1,3] + x[1,4] <= 0.9
- CONSTRAINT_21[1,5]: - 0.0333333333333333 alpha[1,3]
-   - 0.0666666666666667 alpha[1,4] - 0.1 alpha[1,5]
-   - 0.0333333333333333 alpha[2,4] - 0.0666666666666667 alpha[2,5]
-   - 0.0333333333333333 alpha[3,5] + x[1,2] + x[1,3] + x[1,4] + x[1,5]
-   <= 0.9
- CONSTRAINT_21[1,6]: - 0.0263157894736842 alpha[1,3]
-   - 0.0526315789473684 alpha[1,4] - 0.0789473684210526 alpha[1,5]
-   - 0.1052631578947368 alpha[1,6] - 0.0263157894736842 alpha[2,4]
-   - 0.0526315789473684 alpha[2,5] - 0.0789473684210526 alpha[2,6]
-   - 0.0263157894736842 alpha[3,5] - 0.0526315789473684 alpha[3,6]
-   - 0.0263157894736842 alpha[4,6] + x[1,2] + x[1,3] + x[1,4] + x[1,5]
-   + x[1,6] <= 0.9
- CONSTRAINT_21[1,7]: - 0.0217391304347826 alpha[1,3]
-   - 0.0434782608695652 alpha[1,4] - 0.0652173913043478 alpha[1,5]
-   - 0.0869565217391304 alpha[1,6] - 0.108695652173913 alpha[1,7]
-   - 0.0217391304347826 alpha[2,4] - 0.0434782608695652 alpha[2,5]
-   - 0.0652173913043478 alpha[2,6] - 0.0869565217391304 alpha[2,7]
-   - 0.0217391304347826 alpha[3,5] - 0.0434782608695652 alpha[3,6]
-   - 0.0652173913043478 alpha[3,7] - 0.0217391304347826 alpha[4,6]
-   - 0.0434782608695652 alpha[4,7] - 0.0217391304347826 alpha[5,7] + x[1,2]
-   + x[1,3] + x[1,4] + x[1,5] + x[1,6] + x[1,7] <= 0.9
- CONSTRAINT_21[1,8]: - 0.0185185185185185 alpha[1,3]
-   - 0.037037037037037 alpha[1,4] - 0.0555555555555556 alpha[1,5]
-   - 0.0740740740740741 alpha[1,6] - 0.0925925925925926 alpha[1,7]
-   - 0.1111111111111111 alpha[1,8] - 0.0185185185185185 alpha[2,4]
-   - 0.037037037037037 alpha[2,5] - 0.0555555555555556 alpha[2,6]
-   - 0.0740740740740741 alpha[2,7] - 0.0925925925925926 alpha[2,8]
-   - 0.0185185185185185 alpha[3,5] - 0.037037037037037 alpha[3,6]
-   - 0.0555555555555556 alpha[3,7] - 0.0740740740740741 alpha[3,8]
-   - 0.0185185185185185 alpha[4,6] - 0.037037037037037 alpha[4,7]
-   - 0.0555555555555556 alpha[4,8] - 0.0185185185185185 alpha[5,7]
-   - 0.037037037037037 alpha[5,8] - 0.0185185185185185 alpha[6,8] + x[1,2]
-   + x[1,3] + x[1,4] + x[1,5] + x[1,6] + x[1,7] + x[1,8] <= 0.9
- CONSTRAINT_21[1,9]: - 0.0161290322580645 alpha[1,3]
+   - 0.0142857142857143 alpha[7,9] <= 0.25
+ CONSTRAINT_21[1,2]: x[1,2] <= 0.25
+ CONSTRAINT_21[1,3]: x[1,2] + x[1,3] - 0.0714285714285714 alpha[1,3]
+   <= 0.25
+ CONSTRAINT_21[1,4]: x[1,2] + x[1,3] + x[1,4]
+   - 0.0454545454545455 alpha[1,3] - 0.0909090909090909 alpha[1,4]
+   - 0.0454545454545455 alpha[2,4] <= 0.25
+ CONSTRAINT_21[1,5]: x[1,2] + x[1,3] + x[1,4] + x[1,5]
+   - 0.0333333333333333 alpha[1,3] - 0.0666666666666667 alpha[1,4]
+   - 0.1 alpha[1,5] - 0.0333333333333333 alpha[2,4]
+   - 0.0666666666666667 alpha[2,5] - 0.0333333333333333 alpha[3,5] <= 0.25
+ CONSTRAINT_21[1,6]: x[1,2] + x[1,3] + x[1,4] + x[1,5] + x[1,6]
+   - 0.0263157894736842 alpha[1,3] - 0.0526315789473684 alpha[1,4]
+   - 0.0789473684210526 alpha[1,5] - 0.1052631578947368 alpha[1,6]
+   - 0.0263157894736842 alpha[2,4] - 0.0526315789473684 alpha[2,5]
+   - 0.0789473684210526 alpha[2,6] - 0.0263157894736842 alpha[3,5]
+   - 0.0526315789473684 alpha[3,6] - 0.0263157894736842 alpha[4,6] <= 0.25
+ CONSTRAINT_21[1,7]: x[1,2] + x[1,3] + x[1,4] + x[1,5] + x[1,6] + x[1,7]
+   - 0.0217391304347826 alpha[1,3] - 0.0434782608695652 alpha[1,4]
+   - 0.0652173913043478 alpha[1,5] - 0.0869565217391304 alpha[1,6]
+   - 0.108695652173913 alpha[1,7] - 0.0217391304347826 alpha[2,4]
+   - 0.0434782608695652 alpha[2,5] - 0.0652173913043478 alpha[2,6]
+   - 0.0869565217391304 alpha[2,7] - 0.0217391304347826 alpha[3,5]
+   - 0.0434782608695652 alpha[3,6] - 0.0652173913043478 alpha[3,7]
+   - 0.0217391304347826 alpha[4,6] - 0.0434782608695652 alpha[4,7]
+   - 0.0217391304347826 alpha[5,7] <= 0.25
+ CONSTRAINT_21[1,8]: x[1,2] + x[1,3] + x[1,4] + x[1,5] + x[1,6] + x[1,7]
+   + x[1,8] - 0.0185185185185185 alpha[1,3] - 0.037037037037037 alpha[1,4]
+   - 0.0555555555555556 alpha[1,5] - 0.0740740740740741 alpha[1,6]
+   - 0.0925925925925926 alpha[1,7] - 0.1111111111111111 alpha[1,8]
+   - 0.0185185185185185 alpha[2,4] - 0.037037037037037 alpha[2,5]
+   - 0.0555555555555556 alpha[2,6] - 0.0740740740740741 alpha[2,7]
+   - 0.0925925925925926 alpha[2,8] - 0.0185185185185185 alpha[3,5]
+   - 0.037037037037037 alpha[3,6] - 0.0555555555555556 alpha[3,7]
+   - 0.0740740740740741 alpha[3,8] - 0.0185185185185185 alpha[4,6]
+   - 0.037037037037037 alpha[4,7] - 0.0555555555555556 alpha[4,8]
+   - 0.0185185185185185 alpha[5,7] - 0.037037037037037 alpha[5,8]
+   - 0.0185185185185185 alpha[6,8] <= 0.25
+ CONSTRAINT_21[1,9]: x[1,2] + x[1,3] + x[1,4] + x[1,5] + x[1,6] + x[1,7]
+   + x[1,8] + x[1,9] - 0.0161290322580645 alpha[1,3]
    - 0.032258064516129 alpha[1,4] - 0.0483870967741935 alpha[1,5]
    - 0.0645161290322581 alpha[1,6] - 0.0806451612903226 alpha[1,7]
    - 0.0967741935483871 alpha[1,8] - 0.1129032258064516 alpha[1,9]
@@ -1147,173 +685,165 @@ Subject To
    - 0.0645161290322581 alpha[4,9] - 0.0161290322580645 alpha[5,7]
    - 0.032258064516129 alpha[5,8] - 0.0483870967741935 alpha[5,9]
    - 0.0161290322580645 alpha[6,8] - 0.032258064516129 alpha[6,9]
-   - 0.0161290322580645 alpha[7,9] + x[1,2] + x[1,3] + x[1,4] + x[1,5]
-   + x[1,6] + x[1,7] + x[1,8] + x[1,9] <= 0.9
- CONSTRAINT_21[2,3]: x[2,3] <= 0.9
- CONSTRAINT_21[2,4]: - 0.0714285714285714 alpha[2,4] + x[2,3] + x[2,4]
-   <= 0.9
- CONSTRAINT_21[2,5]: - 0.0454545454545455 alpha[2,4]
-   - 0.0909090909090909 alpha[2,5] - 0.0454545454545455 alpha[3,5] + x[2,3]
-   + x[2,4] + x[2,5] <= 0.9
- CONSTRAINT_21[2,6]: - 0.0333333333333333 alpha[2,4]
-   - 0.0666666666666667 alpha[2,5] - 0.1 alpha[2,6]
+   - 0.0161290322580645 alpha[7,9] <= 0.25
+ CONSTRAINT_21[2,3]: x[2,3] <= 0.25
+ CONSTRAINT_21[2,4]: x[2,3] + x[2,4] - 0.0714285714285714 alpha[2,4]
+   <= 0.25
+ CONSTRAINT_21[2,5]: x[2,3] + x[2,4] + x[2,5]
+   - 0.0454545454545455 alpha[2,4] - 0.0909090909090909 alpha[2,5]
+   - 0.0454545454545455 alpha[3,5] <= 0.25
+ CONSTRAINT_21[2,6]: x[2,3] + x[2,4] + x[2,5] + x[2,6]
+   - 0.0333333333333333 alpha[2,4] - 0.0666666666666667 alpha[2,5]
+   - 0.1 alpha[2,6] - 0.0333333333333333 alpha[3,5]
+   - 0.0666666666666667 alpha[3,6] - 0.0333333333333333 alpha[4,6] <= 0.25
+ CONSTRAINT_21[2,7]: x[2,3] + x[2,4] + x[2,5] + x[2,6] + x[2,7]
+   - 0.0263157894736842 alpha[2,4] - 0.0526315789473684 alpha[2,5]
+   - 0.0789473684210526 alpha[2,6] - 0.1052631578947368 alpha[2,7]
+   - 0.0263157894736842 alpha[3,5] - 0.0526315789473684 alpha[3,6]
+   - 0.0789473684210526 alpha[3,7] - 0.0263157894736842 alpha[4,6]
+   - 0.0526315789473684 alpha[4,7] - 0.0263157894736842 alpha[5,7] <= 0.25
+ CONSTRAINT_21[2,8]: x[2,3] + x[2,4] + x[2,5] + x[2,6] + x[2,7] + x[2,8]
+   - 0.0217391304347826 alpha[2,4] - 0.0434782608695652 alpha[2,5]
+   - 0.0652173913043478 alpha[2,6] - 0.0869565217391304 alpha[2,7]
+   - 0.108695652173913 alpha[2,8] - 0.0217391304347826 alpha[3,5]
+   - 0.0434782608695652 alpha[3,6] - 0.0652173913043478 alpha[3,7]
+   - 0.0869565217391304 alpha[3,8] - 0.0217391304347826 alpha[4,6]
+   - 0.0434782608695652 alpha[4,7] - 0.0652173913043478 alpha[4,8]
+   - 0.0217391304347826 alpha[5,7] - 0.0434782608695652 alpha[5,8]
+   - 0.0217391304347826 alpha[6,8] <= 0.25
+ CONSTRAINT_21[2,9]: x[2,3] + x[2,4] + x[2,5] + x[2,6] + x[2,7] + x[2,8]
+   + x[2,9] - 0.0185185185185185 alpha[2,4] - 0.037037037037037 alpha[2,5]
+   - 0.0555555555555556 alpha[2,6] - 0.0740740740740741 alpha[2,7]
+   - 0.0925925925925926 alpha[2,8] - 0.1111111111111111 alpha[2,9]
+   - 0.0185185185185185 alpha[3,5] - 0.037037037037037 alpha[3,6]
+   - 0.0555555555555556 alpha[3,7] - 0.0740740740740741 alpha[3,8]
+   - 0.0925925925925926 alpha[3,9] - 0.0185185185185185 alpha[4,6]
+   - 0.037037037037037 alpha[4,7] - 0.0555555555555556 alpha[4,8]
+   - 0.0740740740740741 alpha[4,9] - 0.0185185185185185 alpha[5,7]
+   - 0.037037037037037 alpha[5,8] - 0.0555555555555556 alpha[5,9]
+   - 0.0185185185185185 alpha[6,8] - 0.037037037037037 alpha[6,9]
+   - 0.0185185185185185 alpha[7,9] <= 0.25
+ CONSTRAINT_21[3,4]: x[3,4] <= 0.25
+ CONSTRAINT_21[3,5]: x[3,4] + x[3,5] - 0.0714285714285714 alpha[3,5]
+   <= 0.25
+ CONSTRAINT_21[3,6]: x[3,4] + x[3,5] + x[3,6]
+   - 0.0454545454545455 alpha[3,5] - 0.0909090909090909 alpha[3,6]
+   - 0.0454545454545455 alpha[4,6] <= 0.25
+ CONSTRAINT_21[3,7]: x[3,4] + x[3,5] + x[3,6] + x[3,7]
    - 0.0333333333333333 alpha[3,5] - 0.0666666666666667 alpha[3,6]
-   - 0.0333333333333333 alpha[4,6] + x[2,3] + x[2,4] + x[2,5] + x[2,6]
-   <= 0.9
- CONSTRAINT_21[2,7]: - 0.0263157894736842 alpha[2,4]
-   - 0.0526315789473684 alpha[2,5] - 0.0789473684210526 alpha[2,6]
-   - 0.1052631578947368 alpha[2,7] - 0.0263157894736842 alpha[3,5]
-   - 0.0526315789473684 alpha[3,6] - 0.0789473684210526 alpha[3,7]
+   - 0.1 alpha[3,7] - 0.0333333333333333 alpha[4,6]
+   - 0.0666666666666667 alpha[4,7] - 0.0333333333333333 alpha[5,7] <= 0.25
+ CONSTRAINT_21[3,8]: x[3,4] + x[3,5] + x[3,6] + x[3,7] + x[3,8]
+   - 0.0263157894736842 alpha[3,5] - 0.0526315789473684 alpha[3,6]
+   - 0.0789473684210526 alpha[3,7] - 0.1052631578947368 alpha[3,8]
    - 0.0263157894736842 alpha[4,6] - 0.0526315789473684 alpha[4,7]
-   - 0.0263157894736842 alpha[5,7] + x[2,3] + x[2,4] + x[2,5] + x[2,6]
-   + x[2,7] <= 0.9
- CONSTRAINT_21[2,8]: - 0.0217391304347826 alpha[2,4]
-   - 0.0434782608695652 alpha[2,5] - 0.0652173913043478 alpha[2,6]
-   - 0.0869565217391304 alpha[2,7] - 0.108695652173913 alpha[2,8]
+   - 0.0789473684210526 alpha[4,8] - 0.0263157894736842 alpha[5,7]
+   - 0.0526315789473684 alpha[5,8] - 0.0263157894736842 alpha[6,8] <= 0.25
+ CONSTRAINT_21[3,9]: x[3,4] + x[3,5] + x[3,6] + x[3,7] + x[3,8] + x[3,9]
    - 0.0217391304347826 alpha[3,5] - 0.0434782608695652 alpha[3,6]
    - 0.0652173913043478 alpha[3,7] - 0.0869565217391304 alpha[3,8]
-   - 0.0217391304347826 alpha[4,6] - 0.0434782608695652 alpha[4,7]
-   - 0.0652173913043478 alpha[4,8] - 0.0217391304347826 alpha[5,7]
-   - 0.0434782608695652 alpha[5,8] - 0.0217391304347826 alpha[6,8] + x[2,3]
-   + x[2,4] + x[2,5] + x[2,6] + x[2,7] + x[2,8] <= 0.9
- CONSTRAINT_21[2,9]: - 0.0185185185185185 alpha[2,4]
-   - 0.037037037037037 alpha[2,5] - 0.0555555555555556 alpha[2,6]
-   - 0.0740740740740741 alpha[2,7] - 0.0925925925925926 alpha[2,8]
-   - 0.1111111111111111 alpha[2,9] - 0.0185185185185185 alpha[3,5]
-   - 0.037037037037037 alpha[3,6] - 0.0555555555555556 alpha[3,7]
-   - 0.0740740740740741 alpha[3,8] - 0.0925925925925926 alpha[3,9]
-   - 0.0185185185185185 alpha[4,6] - 0.037037037037037 alpha[4,7]
-   - 0.0555555555555556 alpha[4,8] - 0.0740740740740741 alpha[4,9]
-   - 0.0185185185185185 alpha[5,7] - 0.037037037037037 alpha[5,8]
-   - 0.0555555555555556 alpha[5,9] - 0.0185185185185185 alpha[6,8]
-   - 0.037037037037037 alpha[6,9] - 0.0185185185185185 alpha[7,9] + x[2,3]
-   + x[2,4] + x[2,5] + x[2,6] + x[2,7] + x[2,8] + x[2,9] <= 0.9
- CONSTRAINT_21[3,4]: x[3,4] <= 0.9
- CONSTRAINT_21[3,5]: - 0.0714285714285714 alpha[3,5] + x[3,4] + x[3,5]
-   <= 0.9
- CONSTRAINT_21[3,6]: - 0.0454545454545455 alpha[3,5]
-   - 0.0909090909090909 alpha[3,6] - 0.0454545454545455 alpha[4,6] + x[3,4]
-   + x[3,5] + x[3,6] <= 0.9
- CONSTRAINT_21[3,7]: - 0.0333333333333333 alpha[3,5]
-   - 0.0666666666666667 alpha[3,6] - 0.1 alpha[3,7]
+   - 0.108695652173913 alpha[3,9] - 0.0217391304347826 alpha[4,6]
+   - 0.0434782608695652 alpha[4,7] - 0.0652173913043478 alpha[4,8]
+   - 0.0869565217391304 alpha[4,9] - 0.0217391304347826 alpha[5,7]
+   - 0.0434782608695652 alpha[5,8] - 0.0652173913043478 alpha[5,9]
+   - 0.0217391304347826 alpha[6,8] - 0.0434782608695652 alpha[6,9]
+   - 0.0217391304347826 alpha[7,9] <= 0.25
+ CONSTRAINT_21[4,5]: x[4,5] <= 0.25
+ CONSTRAINT_21[4,6]: x[4,5] + x[4,6] - 0.0714285714285714 alpha[4,6]
+   <= 0.25
+ CONSTRAINT_21[4,7]: x[4,5] + x[4,6] + x[4,7]
+   - 0.0454545454545455 alpha[4,6] - 0.0909090909090909 alpha[4,7]
+   - 0.0454545454545455 alpha[5,7] <= 0.25
+ CONSTRAINT_21[4,8]: x[4,5] + x[4,6] + x[4,7] + x[4,8]
    - 0.0333333333333333 alpha[4,6] - 0.0666666666666667 alpha[4,7]
-   - 0.0333333333333333 alpha[5,7] + x[3,4] + x[3,5] + x[3,6] + x[3,7]
-   <= 0.9
- CONSTRAINT_21[3,8]: - 0.0263157894736842 alpha[3,5]
-   - 0.0526315789473684 alpha[3,6] - 0.0789473684210526 alpha[3,7]
-   - 0.1052631578947368 alpha[3,8] - 0.0263157894736842 alpha[4,6]
-   - 0.0526315789473684 alpha[4,7] - 0.0789473684210526 alpha[4,8]
+   - 0.1 alpha[4,8] - 0.0333333333333333 alpha[5,7]
+   - 0.0666666666666667 alpha[5,8] - 0.0333333333333333 alpha[6,8] <= 0.25
+ CONSTRAINT_21[4,9]: x[4,5] + x[4,6] + x[4,7] + x[4,8] + x[4,9]
+   - 0.0263157894736842 alpha[4,6] - 0.0526315789473684 alpha[4,7]
+   - 0.0789473684210526 alpha[4,8] - 0.1052631578947368 alpha[4,9]
    - 0.0263157894736842 alpha[5,7] - 0.0526315789473684 alpha[5,8]
-   - 0.0263157894736842 alpha[6,8] + x[3,4] + x[3,5] + x[3,6] + x[3,7]
-   + x[3,8] <= 0.9
- CONSTRAINT_21[3,9]: - 0.0217391304347826 alpha[3,5]
-   - 0.0434782608695652 alpha[3,6] - 0.0652173913043478 alpha[3,7]
-   - 0.0869565217391304 alpha[3,8] - 0.108695652173913 alpha[3,9]
-   - 0.0217391304347826 alpha[4,6] - 0.0434782608695652 alpha[4,7]
-   - 0.0652173913043478 alpha[4,8] - 0.0869565217391304 alpha[4,9]
-   - 0.0217391304347826 alpha[5,7] - 0.0434782608695652 alpha[5,8]
-   - 0.0652173913043478 alpha[5,9] - 0.0217391304347826 alpha[6,8]
-   - 0.0434782608695652 alpha[6,9] - 0.0217391304347826 alpha[7,9] + x[3,4]
-   + x[3,5] + x[3,6] + x[3,7] + x[3,8] + x[3,9] <= 0.9
- CONSTRAINT_21[4,5]: x[4,5] <= 0.9
- CONSTRAINT_21[4,6]: - 0.0714285714285714 alpha[4,6] + x[4,5] + x[4,6]
-   <= 0.9
- CONSTRAINT_21[4,7]: - 0.0454545454545455 alpha[4,6]
-   - 0.0909090909090909 alpha[4,7] - 0.0454545454545455 alpha[5,7] + x[4,5]
-   + x[4,6] + x[4,7] <= 0.9
- CONSTRAINT_21[4,8]: - 0.0333333333333333 alpha[4,6]
-   - 0.0666666666666667 alpha[4,7] - 0.1 alpha[4,8]
+   - 0.0789473684210526 alpha[5,9] - 0.0263157894736842 alpha[6,8]
+   - 0.0526315789473684 alpha[6,9] - 0.0263157894736842 alpha[7,9] <= 0.25
+ CONSTRAINT_21[5,6]: x[5,6] <= 0.25
+ CONSTRAINT_21[5,7]: x[5,6] + x[5,7] - 0.0714285714285714 alpha[5,7]
+   <= 0.25
+ CONSTRAINT_21[5,8]: x[5,6] + x[5,7] + x[5,8]
+   - 0.0454545454545455 alpha[5,7] - 0.0909090909090909 alpha[5,8]
+   - 0.0454545454545455 alpha[6,8] <= 0.25
+ CONSTRAINT_21[5,9]: x[5,6] + x[5,7] + x[5,8] + x[5,9]
    - 0.0333333333333333 alpha[5,7] - 0.0666666666666667 alpha[5,8]
-   - 0.0333333333333333 alpha[6,8] + x[4,5] + x[4,6] + x[4,7] + x[4,8]
-   <= 0.9
- CONSTRAINT_21[4,9]: - 0.0263157894736842 alpha[4,6]
-   - 0.0526315789473684 alpha[4,7] - 0.0789473684210526 alpha[4,8]
-   - 0.1052631578947368 alpha[4,9] - 0.0263157894736842 alpha[5,7]
-   - 0.0526315789473684 alpha[5,8] - 0.0789473684210526 alpha[5,9]
-   - 0.0263157894736842 alpha[6,8] - 0.0526315789473684 alpha[6,9]
-   - 0.0263157894736842 alpha[7,9] + x[4,5] + x[4,6] + x[4,7] + x[4,8]
-   + x[4,9] <= 0.9
- CONSTRAINT_21[5,6]: x[5,6] <= 0.9
- CONSTRAINT_21[5,7]: - 0.0714285714285714 alpha[5,7] + x[5,6] + x[5,7]
-   <= 0.9
- CONSTRAINT_21[5,8]: - 0.0454545454545455 alpha[5,7]
-   - 0.0909090909090909 alpha[5,8] - 0.0454545454545455 alpha[6,8] + x[5,6]
-   + x[5,7] + x[5,8] <= 0.9
- CONSTRAINT_21[5,9]: - 0.0333333333333333 alpha[5,7]
-   - 0.0666666666666667 alpha[5,8] - 0.1 alpha[5,9]
-   - 0.0333333333333333 alpha[6,8] - 0.0666666666666667 alpha[6,9]
-   - 0.0333333333333333 alpha[7,9] + x[5,6] + x[5,7] + x[5,8] + x[5,9]
-   <= 0.9
- CONSTRAINT_21[6,7]: x[6,7] <= 0.9
- CONSTRAINT_21[6,8]: - 0.0714285714285714 alpha[6,8] + x[6,7] + x[6,8]
-   <= 0.9
- CONSTRAINT_21[6,9]: - 0.0454545454545455 alpha[6,8]
-   - 0.0909090909090909 alpha[6,9] - 0.0454545454545455 alpha[7,9] + x[6,7]
-   + x[6,8] + x[6,9] <= 0.9
- CONSTRAINT_21[7,8]: x[7,8] <= 0.9
- CONSTRAINT_21[7,9]: - 0.0714285714285714 alpha[7,9] + x[7,8] + x[7,9]
-   <= 0.9
- CONSTRAINT_21[8,9]: x[8,9] <= 0.9
- CONSTRAINT_22[0,1]: - x[0,1] + z[0,1] <= -0.9
- CONSTRAINT_22[0,2]: - x[0,1] - x[0,2] + z[0,2] <= -0.9
- CONSTRAINT_22[0,3]: - x[0,1] - x[0,2] - x[0,3] + z[0,3] <= -0.9
- CONSTRAINT_22[0,4]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] + z[0,4] <= -0.9
+   - 0.1 alpha[5,9] - 0.0333333333333333 alpha[6,8]
+   - 0.0666666666666667 alpha[6,9] - 0.0333333333333333 alpha[7,9] <= 0.25
+ CONSTRAINT_21[6,7]: x[6,7] <= 0.25
+ CONSTRAINT_21[6,8]: x[6,7] + x[6,8] - 0.0714285714285714 alpha[6,8]
+   <= 0.25
+ CONSTRAINT_21[6,9]: x[6,7] + x[6,8] + x[6,9]
+   - 0.0454545454545455 alpha[6,8] - 0.0909090909090909 alpha[6,9]
+   - 0.0454545454545455 alpha[7,9] <= 0.25
+ CONSTRAINT_21[7,8]: x[7,8] <= 0.25
+ CONSTRAINT_21[7,9]: x[7,8] + x[7,9] - 0.0714285714285714 alpha[7,9]
+   <= 0.25
+ CONSTRAINT_21[8,9]: x[8,9] <= 0.25
+ CONSTRAINT_22[0,1]: - x[0,1] + z[0,1] <= -0.25
+ CONSTRAINT_22[0,2]: - x[0,1] - x[0,2] + z[0,2] <= -0.25
+ CONSTRAINT_22[0,3]: - x[0,1] - x[0,2] - x[0,3] + z[0,3] <= -0.25
+ CONSTRAINT_22[0,4]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] + z[0,4] <= -0.25
  CONSTRAINT_22[0,5]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] - x[0,5] + z[0,5]
-   <= -0.9
+   <= -0.25
  CONSTRAINT_22[0,6]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] - x[0,5] - x[0,6]
-   + z[0,6] <= -0.9
+   + z[0,6] <= -0.25
  CONSTRAINT_22[0,7]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] - x[0,5] - x[0,6]
-   - x[0,7] + z[0,7] <= -0.9
+   - x[0,7] + z[0,7] <= -0.25
  CONSTRAINT_22[0,8]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] - x[0,5] - x[0,6]
-   - x[0,7] - x[0,8] + z[0,8] <= -0.9
+   - x[0,7] - x[0,8] + z[0,8] <= -0.25
  CONSTRAINT_22[0,9]: - x[0,1] - x[0,2] - x[0,3] - x[0,4] - x[0,5] - x[0,6]
-   - x[0,7] - x[0,8] - x[0,9] + z[0,9] <= -0.9
- CONSTRAINT_22[1,2]: - x[1,2] + z[1,2] <= -0.9
- CONSTRAINT_22[1,3]: - x[1,2] - x[1,3] + z[1,3] <= -0.9
- CONSTRAINT_22[1,4]: - x[1,2] - x[1,3] - x[1,4] + z[1,4] <= -0.9
- CONSTRAINT_22[1,5]: - x[1,2] - x[1,3] - x[1,4] - x[1,5] + z[1,5] <= -0.9
+   - x[0,7] - x[0,8] - x[0,9] + z[0,9] <= -0.25
+ CONSTRAINT_22[1,2]: - x[1,2] + z[1,2] <= -0.25
+ CONSTRAINT_22[1,3]: - x[1,2] - x[1,3] + z[1,3] <= -0.25
+ CONSTRAINT_22[1,4]: - x[1,2] - x[1,3] - x[1,4] + z[1,4] <= -0.25
+ CONSTRAINT_22[1,5]: - x[1,2] - x[1,3] - x[1,4] - x[1,5] + z[1,5] <= -0.25
  CONSTRAINT_22[1,6]: - x[1,2] - x[1,3] - x[1,4] - x[1,5] - x[1,6] + z[1,6]
-   <= -0.9
+   <= -0.25
  CONSTRAINT_22[1,7]: - x[1,2] - x[1,3] - x[1,4] - x[1,5] - x[1,6] - x[1,7]
-   + z[1,7] <= -0.9
+   + z[1,7] <= -0.25
  CONSTRAINT_22[1,8]: - x[1,2] - x[1,3] - x[1,4] - x[1,5] - x[1,6] - x[1,7]
-   - x[1,8] + z[1,8] <= -0.9
+   - x[1,8] + z[1,8] <= -0.25
  CONSTRAINT_22[1,9]: - x[1,2] - x[1,3] - x[1,4] - x[1,5] - x[1,6] - x[1,7]
-   - x[1,8] - x[1,9] + z[1,9] <= -0.9
- CONSTRAINT_22[2,3]: - x[2,3] + z[2,3] <= -0.9
- CONSTRAINT_22[2,4]: - x[2,3] - x[2,4] + z[2,4] <= -0.9
- CONSTRAINT_22[2,5]: - x[2,3] - x[2,4] - x[2,5] + z[2,5] <= -0.9
- CONSTRAINT_22[2,6]: - x[2,3] - x[2,4] - x[2,5] - x[2,6] + z[2,6] <= -0.9
+   - x[1,8] - x[1,9] + z[1,9] <= -0.25
+ CONSTRAINT_22[2,3]: - x[2,3] + z[2,3] <= -0.25
+ CONSTRAINT_22[2,4]: - x[2,3] - x[2,4] + z[2,4] <= -0.25
+ CONSTRAINT_22[2,5]: - x[2,3] - x[2,4] - x[2,5] + z[2,5] <= -0.25
+ CONSTRAINT_22[2,6]: - x[2,3] - x[2,4] - x[2,5] - x[2,6] + z[2,6] <= -0.25
  CONSTRAINT_22[2,7]: - x[2,3] - x[2,4] - x[2,5] - x[2,6] - x[2,7] + z[2,7]
-   <= -0.9
+   <= -0.25
  CONSTRAINT_22[2,8]: - x[2,3] - x[2,4] - x[2,5] - x[2,6] - x[2,7] - x[2,8]
-   + z[2,8] <= -0.9
+   + z[2,8] <= -0.25
  CONSTRAINT_22[2,9]: - x[2,3] - x[2,4] - x[2,5] - x[2,6] - x[2,7] - x[2,8]
-   - x[2,9] + z[2,9] <= -0.9
- CONSTRAINT_22[3,4]: - x[3,4] + z[3,4] <= -0.9
- CONSTRAINT_22[3,5]: - x[3,4] - x[3,5] + z[3,5] <= -0.9
- CONSTRAINT_22[3,6]: - x[3,4] - x[3,5] - x[3,6] + z[3,6] <= -0.9
- CONSTRAINT_22[3,7]: - x[3,4] - x[3,5] - x[3,6] - x[3,7] + z[3,7] <= -0.9
+   - x[2,9] + z[2,9] <= -0.25
+ CONSTRAINT_22[3,4]: - x[3,4] + z[3,4] <= -0.25
+ CONSTRAINT_22[3,5]: - x[3,4] - x[3,5] + z[3,5] <= -0.25
+ CONSTRAINT_22[3,6]: - x[3,4] - x[3,5] - x[3,6] + z[3,6] <= -0.25
+ CONSTRAINT_22[3,7]: - x[3,4] - x[3,5] - x[3,6] - x[3,7] + z[3,7] <= -0.25
  CONSTRAINT_22[3,8]: - x[3,4] - x[3,5] - x[3,6] - x[3,7] - x[3,8] + z[3,8]
-   <= -0.9
+   <= -0.25
  CONSTRAINT_22[3,9]: - x[3,4] - x[3,5] - x[3,6] - x[3,7] - x[3,8] - x[3,9]
-   + z[3,9] <= -0.9
- CONSTRAINT_22[4,5]: - x[4,5] + z[4,5] <= -0.9
- CONSTRAINT_22[4,6]: - x[4,5] - x[4,6] + z[4,6] <= -0.9
- CONSTRAINT_22[4,7]: - x[4,5] - x[4,6] - x[4,7] + z[4,7] <= -0.9
- CONSTRAINT_22[4,8]: - x[4,5] - x[4,6] - x[4,7] - x[4,8] + z[4,8] <= -0.9
+   + z[3,9] <= -0.25
+ CONSTRAINT_22[4,5]: - x[4,5] + z[4,5] <= -0.25
+ CONSTRAINT_22[4,6]: - x[4,5] - x[4,6] + z[4,6] <= -0.25
+ CONSTRAINT_22[4,7]: - x[4,5] - x[4,6] - x[4,7] + z[4,7] <= -0.25
+ CONSTRAINT_22[4,8]: - x[4,5] - x[4,6] - x[4,7] - x[4,8] + z[4,8] <= -0.25
  CONSTRAINT_22[4,9]: - x[4,5] - x[4,6] - x[4,7] - x[4,8] - x[4,9] + z[4,9]
-   <= -0.9
- CONSTRAINT_22[5,6]: - x[5,6] + z[5,6] <= -0.9
- CONSTRAINT_22[5,7]: - x[5,6] - x[5,7] + z[5,7] <= -0.9
- CONSTRAINT_22[5,8]: - x[5,6] - x[5,7] - x[5,8] + z[5,8] <= -0.9
- CONSTRAINT_22[5,9]: - x[5,6] - x[5,7] - x[5,8] - x[5,9] + z[5,9] <= -0.9
- CONSTRAINT_22[6,7]: - x[6,7] + z[6,7] <= -0.9
- CONSTRAINT_22[6,8]: - x[6,7] - x[6,8] + z[6,8] <= -0.9
- CONSTRAINT_22[6,9]: - x[6,7] - x[6,8] - x[6,9] + z[6,9] <= -0.9
- CONSTRAINT_22[7,8]: - x[7,8] + z[7,8] <= -0.9
- CONSTRAINT_22[7,9]: - x[7,8] - x[7,9] + z[7,9] <= -0.9
- CONSTRAINT_22[8,9]: - x[8,9] + z[8,9] <= -0.9
+   <= -0.25
+ CONSTRAINT_22[5,6]: - x[5,6] + z[5,6] <= -0.25
+ CONSTRAINT_22[5,7]: - x[5,6] - x[5,7] + z[5,7] <= -0.25
+ CONSTRAINT_22[5,8]: - x[5,6] - x[5,7] - x[5,8] + z[5,8] <= -0.25
+ CONSTRAINT_22[5,9]: - x[5,6] - x[5,7] - x[5,8] - x[5,9] + z[5,9] <= -0.25
+ CONSTRAINT_22[6,7]: - x[6,7] + z[6,7] <= -0.25
+ CONSTRAINT_22[6,8]: - x[6,7] - x[6,8] + z[6,8] <= -0.25
+ CONSTRAINT_22[6,9]: - x[6,7] - x[6,8] - x[6,9] + z[6,9] <= -0.25
+ CONSTRAINT_22[7,8]: - x[7,8] + z[7,8] <= -0.25
+ CONSTRAINT_22[7,9]: - x[7,8] - x[7,9] + z[7,9] <= -0.25
+ CONSTRAINT_22[8,9]: - x[8,9] + z[8,9] <= -0.25
 Bounds
  beta[0] <= 1
  beta[1] <= 1
@@ -1514,10 +1044,8 @@ Binaries
  alpha[3,4] alpha[3,5] alpha[3,6] alpha[3,7] alpha[3,8] alpha[3,9]
  alpha[4,5] alpha[4,6] alpha[4,7] alpha[4,8] alpha[4,9] alpha[5,6]
  alpha[5,7] alpha[5,8] alpha[5,9] alpha[6,7] alpha[6,8] alpha[6,9]
- alpha[7,8] alpha[7,9] alpha[8,9] alpha_dummy_s+[0] alpha_dummy_s+[1]
- alpha_dummy_s+[2] alpha_dummy_s+[3] alpha_dummy_s+[4] alpha_dummy_s+[5]
- alpha_dummy_s+[6] alpha_dummy_s+[7] alpha_dummy_s+[8] alpha_dummy_s+[9]
- alpha_dummy_s-[0] alpha_dummy_s-[1] alpha_dummy_s-[2] alpha_dummy_s-[3]
- alpha_dummy_s-[4] alpha_dummy_s-[5] alpha_dummy_s-[6] alpha_dummy_s-[7]
- alpha_dummy_s-[8] alpha_dummy_s-[9]
+ alpha[7,8] alpha[7,9] alpha[8,9] alpha[s,0] alpha[s,1] alpha[s,2]
+ alpha[s,3] alpha[s,4] alpha[s,5] alpha[s,6] alpha[s,7] alpha[s,8]
+ alpha[s,9] alpha[0,s] alpha[1,s] alpha[2,s] alpha[3,s] alpha[4,s]
+ alpha[5,s] alpha[6,s] alpha[7,s] alpha[8,s] alpha[9,s]
 End
