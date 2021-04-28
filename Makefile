@@ -1,52 +1,62 @@
 .POSIX:
 
-.DEFAULT_GOAL := default
+include config.mk
 
-default: | flaunch
-flaunch: | launch
-build: | makenv install launch
-rebuild: | clean build
+.DEFAULT_GOAL := help
 
-makenv:
-	python -m venv .
+.PHONY: init
+init:
+	$(PYTHON_X) -m venv $(PREFIX)
 
-install:
-	python -m pip install --upgrade pip
-	pip install -r requirements.txt
-	pip install -i https://pypi.gurobi.com gurobipy
+.ONESHELL:
+.PHONY: install
+install: init
+	. $(PREFIX)/bin/activate
+	$(PYTHON_X) -m $(PIP_X) install --upgrade $(PIP_X)
+	$(PIP_X) install -r $(PREFIX)/requirements.txt
+	$(PIP_X) install -i https://pypi.gurobi.com gurobipy
 
+.ONESHELL:
+.PHONY: launch
 launch:
-	jupyter notebook
+	. $(PREFIX)/bin/activate
+	$(JUPYTER_X) notebook
 
+.ONESHELL:
+.PHONY: resolve
 resolve:
-	pip freeze > requirements.txt
-	sed -i '/gurobipy.*/d' requirements.txt
+	. $(PREFIX)/bin/activate
+	$(PIP_X) freeze > $(PREFIX)/requirements.txt
+	sed -i '/gurobipy.*/d' $(PREFIX)/requirements.txt
 
+.ONESHELL:
+.PHONY: remote
 remote:
-	jupyter notebook --generate-config -y
-	echo "c.NotebookApp.ip = '*'" >> ${HOME}/.jupyter/jupyter_notebook_config.py
-	echo 'c.NotebookApp.open_browser = False' >> ${HOME}/.jupyter/jupyter_notebook_config.py
-	jupyter notebook password
+	. $(PREFIX)/bin/activate
+	$(JUPYTER_X) notebook --generate-config -y
+	echo "c.NotebookApp.ip = '*'" >> $(JUPYTER_HOST_PATH)/jupyter_notebook_config.py
+	echo 'c.NotebookApp.open_browser = False' >> $(JUPYTER_HOST_PATH)/jupyter_notebook_config.py
+	$(JUPYTER_X) notebook password
 
+.PHONY: clean
 clean:
-	-rm -rf bin include lib lib64 pyvenv.cfg
+	-rm -rf $(PREFIX)/bin
+	-rm -rf $(PREFIX)/include
+	-rm -rf $(PREFIX)/lib
+	-rm -rf $(PREFIX)/share
+	-rm -rf $(PREFIX)/lib64
+	-rm -rf $(PREFIX)/pyvenv.cfg
 
 .SILENT: help
 help:
 	echo "MACROS: "
-	echo " * {DEFAULT} : flaunch"
-	echo
-	echo " * {flaunch} : launch"
-	echo " * {build}   : makenv;install;launch"
-	echo " * {rebuild} : clean;build"
+	echo " * {DEFAULT} : help"
 	echo
 	echo "PARAMS: "
-	echo " - makenv    : create python virtual environment"
+	echo " - init      : create python virtual environment"
 	echo " - install   : install venv requirements from file"
 	echo " - launch    : launch jupyter notebook local/remote-available instance"
 	echo " - resolve   : create requirements.txt file"
 	echo " - remote    : config jupyter notebook remote-available instance"
 	echo " - clean     : remove gitignored venv files"
 	echo " - help      : print this help message"
-
-.PHONY: makenv install launch resolve remote clean help
